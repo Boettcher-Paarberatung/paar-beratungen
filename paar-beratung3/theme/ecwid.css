@@ -1,0 +1,77 @@
+/*
+Support for Ecwid. Enqueued only when the ecwid plugin is in place.
+
+https://wordpress.org/plugins/ecwid-shopping-cart/
+*/
+/*------------------------------------*\ Local variables
+\*------------------------------------*/
+/*------------------------------------*\ Bootstrap overrides
+\*------------------------------------*/
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid { font-family: "Merriweather", Helvetica, Arial, sans-serif; color: #919699; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid a { color: #1fa7da; font-size: inherit; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid a:hover { color: #1c96c4; text-decoration: underline; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid .ecwid-btn { font-family: "Montserrat", Helvetica, Arial, sans-serif; text-transform: uppercase; border-radius: 3px; color: #fff; border: none; background-color: #73bfa6; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid .ecwid-btn--primary { background-color: #957aca; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid input, html#ecwid_html#ecwid_html body#ecwid_body .ecwid select { font-family: sans-serif; background-color: #fff; border: 1px solid #ccc; border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-shopping-cart-search { margin-bottom: 5px; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-SearchPanel { font-family: "Merriweather", Helvetica, Arial, sans-serif; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-SearchPanel .ecwid-SearchPanel-field { border: 1px solid rgba(0, 0, 0, 0.1); background-color: #f2f4f7; padding: 6px 5px 6px 10px; font-weight: normal; height: 40px; border-radius: 2px; transition: all 150ms ease-out; margin-right: 0; width: 100%; max-width: 100%; }
+@media (min-width: 992px) { html#ecwid_html#ecwid_html body#ecwid_body .ecwid-SearchPanel .ecwid-SearchPanel-field { border-top-right-radius: 0; border-bottom-right-radius: 0; border-right: none; width: auto; } }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-SearchPanel .ecwid-SearchPanel-field:focus { background: #ffffff; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 2px; }
+@media (min-width: 992px) { html#ecwid_html#ecwid_html body#ecwid_body .ecwid-SearchPanel .ecwid-SearchPanel-field:focus { border-top-right-radius: 0; border-bottom-right-radius: 0; border-right: none; } }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-SearchPanel .ecwid-SearchPanel-button { -ms-transform: translateY(2px); transform: translateY(2px); height: 40px; background: #73bfa6; font-family: "Montserrat", Helvetica, Arial, sans-serif; text-transform: uppercase; border: 0; color: #ffffff; border-radius: 2px; padding-top: 3px; transition: all 150ms ease-out; width: 100%; }
+@media (min-width: 992px) { html#ecwid_html#ecwid_html body#ecwid_body .ecwid-SearchPanel .ecwid-SearchPanel-button { border-top-left-radius: 0; border-bottom-left-radius: 0; width: auto; } }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-SearchPanel .ecwid-SearchPanel-button:hover, html#ecwid_html#ecwid_html body#ecwid_body .ecwid-SearchPanel .ecwid-SearchPanel-button:focus { background: #62b79b; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-shopping-cart-categories { font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+html#ecwid_html#ecwid_html body#ecwid_body #horizontal-menu { margin-bottom: 0; }
+html#ecwid_html#ecwid_html body#ecwid_body #horizontal-menu .horizontal-menu { padding: 0; border: none; border-radius: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+html#ecwid_html#ecwid_html body#ecwid_body #horizontal-menu .horizontal-menu .horizontal-menu-item { margin-right: 5px; }
+html#ecwid_html#ecwid_html body#ecwid_body #horizontal-menu .horizontal-menu .horizontal-menu-item > a { border-radius: 3px 3px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none; }
+html#ecwid_html#ecwid_html body#ecwid_body #horizontal-menu .horizontal-menu .horizontal-menu-item > a span { font-size: 20px; color: #414447; text-transform: uppercase; }
+html#ecwid_html#ecwid_html body#ecwid_body #horizontal-menu .horizontal-menu .horizontal-menu-item--active { position: relative; }
+html#ecwid_html#ecwid_html body#ecwid_body #horizontal-menu .horizontal-menu .horizontal-menu-item--active::after { content: ''; display: block; position: absolute; bottom: -1px; left: 1px; right: 1px; z-index: 10; height: 1px; background-color: #fff; }
+html#ecwid_html#ecwid_html body#ecwid_body #horizontal-menu .horizontal-menu .horizontal-menu-item--hover > a { background-color: rgba(0, 0, 0, 0.05); }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-Account table.ecwid-categoriesTabBar table.gwt-TabBarItem a span { font-size: 16px; color: #414447; text-transform: uppercase; font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabTopLeft, html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabTopCenter, html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabTopRight, html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabMiddleLeft, html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabMiddleRight, html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar div.gwt-TabBarFirst, html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar div.gwt-TabBarRest, html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar table.gwt-TabBarItem, html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-categories-horizontal-menuBarContainer, html#ecwid_html#ecwid_html body#ecwid_body td.ecwid-categories-vertical-table-cell, html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-categories-MenuBarPopup div.menuSeparatorInner { border-color: rgba(0, 0, 0, 0.1); }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryPath { font-family: "Merriweather", Helvetica, Arial, sans-serif; font-size: 14px; color: #a6acb2; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-categoryPath-categoryLink a { font-weight: bold; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-productBrowser-subcategories-categoryName { font-family: "Montserrat", Helvetica, Arial, sans-serif; color: #919699; font-size: 15px; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-minicart-mini-rolloverContainer, html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-productBrowser-auth-mini { font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-productBrowser-auth-mini { border-bottom: 1px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-productBrowser { padding-left: 0; padding-right: 0; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-minicart-mini-rollover { border-color: rgba(0, 0, 0, 0.1); }
+html#ecwid_html#ecwid_html body#ecwid_body span.ecwid-minicart-mini-overlay-count { font-weight: bold; margin-right: 4px; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-minicart-mini-total { font-size: 13px; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-form { background-color: #fafafa; border: 1px solid rgba(0, 0, 0, 0.1); }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-head { font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-categoryPath { padding: 5px 10px; margin-top: 15px; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-categoryPath-separator { font-weight: bold; display: inline-block; transform: rotateY(50deg); }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-category { border: 1px solid rgba(0, 0, 0, 0.1); border-top: none; padding-top: 0; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-results-topPanel-controlsPanel { background-color: #fcfcfc; border: 1px solid rgba(0, 0, 0, 0.1); border-width: 0 0 1px 1px; padding: 5px 15px; font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-productsGrid-v2 td.ecwid-productBrowser-productsGrid-productInside.ecwid-productBrowser-productsGrid-hover, html#ecwid_html#ecwid_html body#ecwid_body td.ecwid-productBrowser-productsList-mouseover { border-color: #73bfa6; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-productsGrid-v2 td.ecwid-productBrowser-productsGrid-productInside.ecwid-productBrowser-productsGrid-hover { border-radius: 3px; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-productsGrid-productInside { font-family: "Montserrat", Helvetica, Arial, sans-serif; color: #919699; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-productsGrid-v2 div.ecwid-productBrowser-productNameLink a { color: #919699; font-size: 15px; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-productBrowser-price { color: #333333; font-size: 20px; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-productBrowser-backgroundedPanel { background-color: #fafafa; border: 1px solid rgba(0, 0, 0, 0.1); }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-nav div.ecwid-productBrowser-backgroundedPanel { border-bottom: none; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid a.ecwid-poweredBy { float: none; display: block; text-align: center; margin: 0; margin-top: 5px; font-size: 80%; }
+html#ecwid_html#ecwid_html body#ecwid_body .pswp__caption__center { font-family: "Merriweather", Helvetica, Arial, sans-serif; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-productBrowser-cart-itemsTable-row-selected { background-color: #fafafa; border-color: rgba(0, 0, 0, 0.1); }
+html#ecwid_html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-cell-selected { background-color: #fafafa; }
+html#ecwid_html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-headerCell { border-color: rgba(0, 0, 0, 0.1); }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-Checkout-blockTitle { color: #333333; margin-left: 0; }
+html#ecwid_html#ecwid_html body#ecwid_body .ecwid-Checkout-blockTip { font-size: 13px; line-height: 1.5; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-Checkout-PasswordBlock div.ecwid-fieldWrapper label.ecwid-fieldLabel { width: auto; display: block; float: none; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-note { color: #777777; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-Checkout div.ecwid-Invoice { margin-left: 0; margin-right: 0; border-color: rgba(0, 0, 0, 0.1); border-radius: 3px; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-Invoice-cell-title { background-color: #73bfa6; font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-Invoice-Summary-value-price, html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-Invoice-blockTitle, html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-totalAmount { font-weight: bold; color: #222222; }
+html#ecwid_html#ecwid_html body#ecwid_body td.ecwid-Invoice-cell { background-color: #fafafa; }
+html#ecwid_html#ecwid_html body#ecwid_body td.ecwid-Invoice-edgeCell { background-color: #f2f2f2; }
+html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-Invoice-itemsTable .ecwid-Invoice-optionsList { font-size: 90%; color: #555555; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-productBrowser-auth { text-align: left; margin-left: 10px; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-Orders-EmptyList, html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-AddressBook-block { background-color: #fafafa; border: 1px solid rgba(0, 0, 0, 0.1); }
+html#ecwid_html#ecwid_html body#ecwid_body td.ecwid-OrdersList-OrderBox-header, html#ecwid_html#ecwid_html body#ecwid_body td.ecwid-productBrowser-productsTable-cellOdd { background-color: #fafafa; }
+html#ecwid_html#ecwid_html body#ecwid_body table.ecwid-productBrowser-productsTable-table { width: 100%; width: calc(100% + 2px); margin-left: -1px; margin-right: -1px; margin-bottom: -1px; }
+html#ecwid_html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productsTable { padding-bottom: 0; }

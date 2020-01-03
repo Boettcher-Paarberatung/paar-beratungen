@@ -1,0 +1,420 @@
+/*
+Support for Ecwid. Enqueued only when the ecwid plugin is in place.
+
+https://wordpress.org/plugins/ecwid-shopping-cart/
+*/
+
+@import "vars";
+@import "bootstrap/variables";
+
+// Don't blame it on me, the Ecwid HTML and selectors are terrrible,
+// this CSS cannot have the same quality as the rest of the theme.
+
+$semi-black: rgba(0,0,0,0.1);
+$light-bg: #fafafa;
+
+@mixin border-bottom {
+	border-bottom: 1px solid $semi-black;
+}
+
+html#ecwid_html#ecwid_html body#ecwid_body {
+	.ecwid {
+		font-family: $primary-font;
+		color: $text-color;
+
+		a {
+			color: $link-color;
+			font-size: inherit;
+
+			&:hover {
+				color: $link-hover-color;
+				text-decoration: underline;
+			}
+		}
+
+		.ecwid-btn {
+			font-family: $secondary-font;
+			text-transform: uppercase;
+			border-radius: 3px;
+			color: #fff;
+			border: none;
+			background-color: $informative-color;
+		}
+
+		.ecwid-btn--primary {
+			background-color: $button-color;
+		}
+
+		input,
+		select {
+			font-family: sans-serif;
+			background-color: #fff;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		}
+	}
+
+	.ecwid-shopping-cart-search {
+		margin-bottom: 5px;
+	}
+
+	.ecwid-SearchPanel {
+		font-family: $primary-font;
+
+		.ecwid-SearchPanel-field {
+			border: 1px solid $semi-black;
+			background-color: #f2f4f7;
+			padding: 6px 5px 6px 10px;
+			font-weight: normal;
+			height: 40px;
+			border-radius: 2px;
+			transition: $primary-transition;
+			margin-right: 0;
+			width: 100%;
+			max-width: 100%;
+
+			@media (min-width: $screen-md-min) {
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+				border-right: none;
+				width: auto;
+			}
+
+			&:focus {
+				background: #ffffff;
+				border: 1px solid rgba(0,0,0,0.2);
+				border-radius: 2px;
+
+				@media (min-width: $screen-md-min) {
+					border-top-right-radius: 0;
+					border-bottom-right-radius: 0;
+					border-right: none;
+				}
+			}
+		}
+
+		.ecwid-SearchPanel-button {
+			transform: translateY(2px);
+			height: 40px;
+			background: $informative-color;
+			font-family: $secondary-font;
+			text-transform: uppercase;
+			border: 0;
+			color: #ffffff;
+			border-radius: 2px;
+			padding-top: 3px;
+			transition: $primary-transition;
+			width: 100%;
+
+			@media (min-width: $screen-md-min) {
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+				width: auto;
+			}
+
+			&:hover,
+			&:focus {
+				background: darken($informative-color, 5);
+			}
+		}
+	}
+
+	.ecwid-shopping-cart-categories {
+		font-family: $secondary-font;
+	}
+
+	#horizontal-menu {
+		margin-bottom: 0;
+
+		.horizontal-menu {
+			padding: 0;
+			border: none;
+			border-radius: 0;
+			@include border-bottom;
+
+			.horizontal-menu-item {
+				margin-right: 5px;
+
+				> a {
+					border-radius: 3px 3px 0 0;
+					border: 1px solid $semi-black;
+					border-bottom: none;
+
+					&:hover {
+					}
+
+					span {
+						font-size: 20px;
+						color: #414447;
+						text-transform: uppercase;
+					}
+				}
+
+				&--active {
+					position: relative;
+
+					&::after {
+						content: '';
+						display: block;
+						position: absolute;
+						bottom: -1px;
+						left: 1px;
+						right: 1px;
+						z-index: 10;
+						height: 1px;
+						background-color: #fff;
+					}
+				}
+
+				&--hover {
+					> a {
+						background-color: rgba(0,0,0,0.05);
+					}
+				}
+			}
+		}
+	}
+
+	div.ecwid-Account table.ecwid-categoriesTabBar table.gwt-TabBarItem a span {
+		font-size: 16px;
+		color: #414447;
+		text-transform: uppercase;
+		font-family: $secondary-font;
+	}
+
+	table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabTopLeft,
+	table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabTopCenter,
+	table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabTopRight,
+	table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabMiddleLeft,
+	table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabMiddleRight,
+	table.ecwid-categoriesTabBar div.gwt-TabBarFirst,
+	table.ecwid-categoriesTabBar div.gwt-TabBarRest,
+	table.ecwid-categoriesTabBar table.gwt-TabBarItem,
+	div.ecwid-categories-horizontal-menuBarContainer,
+	td.ecwid-categories-vertical-table-cell,
+	div.ecwid-categories-MenuBarPopup div.menuSeparatorInner {
+		border-color: $semi-black;
+	}
+
+	div.ecwid-productBrowser-categoryPath {
+		font-family: $primary-font;
+		font-size: 14px;
+		color: #a6acb2;
+	}
+
+	.ecwid-productBrowser-categoryPath-categoryLink {
+		a {
+			font-weight: bold;
+		}
+	}
+
+	div.ecwid-productBrowser-subcategories-categoryName {
+		font-family: $secondary-font;
+		color: $text-color;
+		font-size: 15px;
+	}
+
+	div.ecwid-minicart-mini-rolloverContainer,
+	table.ecwid-productBrowser-auth-mini {
+		font-family: $secondary-font;
+	}
+
+	table.ecwid-productBrowser-auth-mini {
+		@include border-bottom;
+		margin-bottom: 20px;
+	}
+
+	div.ecwid-productBrowser {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	div.ecwid-minicart-mini-rollover {
+		border-color: $semi-black;
+	}
+
+	span.ecwid-minicart-mini-overlay-count {
+		font-weight: bold;
+		margin-right: 4px;
+	}
+
+	.ecwid-minicart-mini-total {
+		font-size: 13px;
+	}
+
+	div.ecwid-form {
+		background-color: $light-bg;
+		border: 1px solid rgba(0,0,0,0.1);
+	}
+
+	.ecwid-productBrowser-head {
+		font-family: $secondary-font;
+	}
+
+	.ecwid-productBrowser-categoryPath {
+		padding: 5px 10px;
+		margin-top: 15px;
+		border-top: 1px solid $semi-black;
+		border-bottom: 1px solid $semi-black;
+	}
+
+	.ecwid-productBrowser-categoryPath-separator {
+		font-weight: bold;
+		display: inline-block;
+		transform: rotateY(50deg);
+	}
+
+	.ecwid-productBrowser-category {
+		border: 1px solid $semi-black;
+		border-top: none;
+		padding-top: 0;
+	}
+
+	.ecwid-results-topPanel-controlsPanel {
+		background-color: #fcfcfc;
+		border: 1px solid $semi-black;
+		border-width: 0 0 1px 1px;
+		padding: 5px 15px;
+		font-family: $secondary-font;
+	}
+
+	.ecwid-productBrowser-productsGrid-v2 td.ecwid-productBrowser-productsGrid-productInside.ecwid-productBrowser-productsGrid-hover,
+	td.ecwid-productBrowser-productsList-mouseover {
+		border-color: $informative-color;
+	}
+
+	.ecwid-productBrowser-productsGrid-v2 td.ecwid-productBrowser-productsGrid-productInside.ecwid-productBrowser-productsGrid-hover {
+		border-radius: 3px;
+	}
+
+	.ecwid-productBrowser-productsGrid-productInside {
+		font-family: $secondary-font;
+		color: $text-color;
+	}
+
+	.ecwid-productBrowser-productsGrid-v2 div.ecwid-productBrowser-productNameLink a {
+		color: $text-color;
+		font-size: 15px;
+	}
+
+	div.ecwid-productBrowser-price {
+		color: $gray-dark;
+		font-size: 20px;
+	}
+
+	div.ecwid-productBrowser-backgroundedPanel {
+		background-color: $light-bg;
+		border: 1px solid $semi-black;
+	}
+
+	.ecwid-productBrowser-nav div.ecwid-productBrowser-backgroundedPanel {
+		border-bottom: none;
+	}
+
+	.ecwid a.ecwid-poweredBy {
+		float: none;
+		display: block;
+		text-align: center;
+		margin: 0;
+		margin-top: 5px;
+		font-size: 80%;
+	}
+
+	.pswp__caption__center {
+		font-family: $primary-font;
+	}
+
+	.ecwid-productBrowser-cart-itemsTable-row-selected {
+		background-color: $light-bg;
+		border-color: $semi-black;
+	}
+
+	td.ecwid-productBrowser-cart-itemsTable-cell-selected {
+		background-color: $light-bg;
+	}
+
+	td.ecwid-productBrowser-cart-itemsTable-headerCell {
+		border-color: $semi-black;
+	}
+
+	div.ecwid-Checkout-blockTitle {
+		color: $gray-dark;
+		margin-left: 0;
+	}
+
+	.ecwid-Checkout-blockTip {
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+	div.ecwid-Checkout-PasswordBlock div.ecwid-fieldWrapper label.ecwid-fieldLabel {
+		width: auto;
+		display: block;
+		float: none;
+	}
+
+	div.ecwid-note {
+		color: $gray-light;
+	}
+
+	div.ecwid-Checkout div.ecwid-Invoice {
+		margin-left: 0;
+		margin-right: 0;
+		border-color: $semi-black;
+		border-radius: 3px;
+	}
+
+	div.ecwid-Invoice-cell-title {
+		background-color: $informative-color;
+		font-family: $secondary-font;
+	}
+
+	div.ecwid-Invoice-Summary-value-price,
+	div.ecwid-Invoice-blockTitle,
+	div.ecwid-productBrowser-cart-totalAmount {
+		font-weight: bold;
+		color: $gray-darker;
+	}
+
+	td.ecwid-Invoice-cell {
+		background-color: $light-bg;
+	}
+
+	td.ecwid-Invoice-edgeCell {
+		background-color: darken($light-bg, 3%);
+	}
+
+	table.ecwid-Invoice-itemsTable .ecwid-Invoice-optionsList {
+		font-size: 90%;
+		color: $gray;
+	}
+
+	div.ecwid-productBrowser-auth {
+		text-align: left;
+		margin-left: 10px;
+	}
+
+	div.ecwid-Orders-EmptyList,
+	div.ecwid-AddressBook-block {
+		background-color: $light-bg;
+		border: 1px solid $semi-black;
+	}
+
+	td.ecwid-OrdersList-OrderBox-header,
+	td.ecwid-productBrowser-productsTable-cellOdd {
+		background-color: $light-bg;
+	}
+
+	table.ecwid-productBrowser-productsTable-table {
+		width: 100%;
+		width: calc(100% + 2px);
+		margin-left: -1px;
+		margin-right: -1px;
+		margin-bottom: -1px;
+	}
+
+	div.ecwid-productBrowser-productsTable {
+		padding-bottom: 0;
+	}
+}

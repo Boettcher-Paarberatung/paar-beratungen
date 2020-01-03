@@ -1,0 +1,20 @@
+{
+  "name": "dev_diana-boettcher.de",
+  "version": "0.0.0",
+  "description": "diana boettcher theme",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yves Wassersleben",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt-cli": "~1.2.0",
+    "grunt": "~1.0.2",
+    "grunt-contrib-sass": "~1.0.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-cssmin": "~2.2.1",
+    "grunt-contrib-uglify": "~3.3.0",
+    "grunt-contrib-watch": "~1.0.1"
+  }
+}

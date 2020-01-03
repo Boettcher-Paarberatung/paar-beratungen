@@ -1,0 +1,623 @@
+/* Style for background and image beside contact form 7 in Homepage 1*/
+
+.make-appo-bgr{
+	position:relative;
+	&:before{
+		content: ""!important;	
+		width: 100%;
+		height: 100%;
+		background:fadeout(@jws_theme_primary_color,25);
+		position:absolute;
+		top:0;
+		left:0;
+		//z-index:0;
+		transition:all .3s ease-in-out;
+		display: block!important;
+	}
+	/*
+	.mk-appo-cont{
+		z-index:9;
+	}
+	.tb-info-box-wrap{
+		z-index:9;
+	}
+	.make-appo-form{
+		z-index:9;
+	}
+	.ctf7-cont{
+		z-index:9;
+	}
+	.mk-appo-txt{
+		z-index:9;
+	}
+	*/
+	.make-appo-img{
+		z-index:9;
+		position:absolute;
+		bottom:0;
+		@media(min-width:1200px){
+			right:10%;
+		}
+		@media(min-width:992px) and (max-width:1199px){
+			right:0;
+		}
+		@media(max-width:991px){
+			display:none;
+		}
+	}
+}
+/*Text*/
+ .text-right-ctf7{
+	 margin-bottom:25px;
+	 //margin-left: 60px;
+	 text-align:left;
+	 }
+ .wpb_text_column{
+	 
+	 .wpb_wrapper{
+		font-family: @jws_theme_google_font_1;
+		font-size: 14px;
+		margin-left:10px;
+		margin-right:-50px;
+		line-height:24px;
+		color:#fff;	
+		table{
+			//width:70%;
+			text-align:left;
+			border:0px;
+			tr{		
+			}
+			td{
+				border:0px;
+				padding:0;
+				&:first-child{
+					width: 110px;
+					font-weight:600;
+				}
+				&:last-child{
+					width: ~"calc( 100% - 110px)";
+				}
+			}
+			
+		}
+	 }
+	 
+ }
+ 
+ /* Contact Form 7 */
+ .wpcf7{
+	.wpcf7-form{
+		.make_an_appointment{
+			ul{
+				margin:0;
+				padding:0;
+				list-style:none;
+				li{
+					height: 50px;
+					margin-bottom: 20px;
+					br{
+						display:none;
+					}
+					.make_appo_label{
+						color: #fff;
+						font-family:@jws_theme_google_font_1;
+						font-size:14px;
+						font-weight:700;
+					}
+					.wpcf7-submit{
+						font-family:@jws_theme_google_font_2;
+						font-size:16px;
+						text-transform:uppercase;
+						font-weight:600;
+						margin:0 !important;
+						
+					}
+					.wpcf7-form-control-wrap{ /* container input, not submit button*/
+						.wpcf7-form-control{  /* input*/
+							background: rgba(255,255,255,0.2);
+							border: 1px solid fadeout(#fff,60); //40%
+							margin:0;
+							color: #fff;
+							height:50px;
+							.placeholder(fadeout(#fff,60));
+							//.placeholder(#777);
+								
+						}
+					}
+					input[type="date"]{
+						&::-webkit-clear-button {
+							display: none;
+						}
+						&::-webkit-inner-spin-button {
+							display: none;
+						}
+						&::-webkit-calendar-picker-indicator {
+							opacity:0;
+							z-index:9;
+							position:relative;
+							width:20px;
+							height:20px;
+						}
+						&:before{
+							content: "\f073"; 	/*http://astronautweb.co/snippet/font-awesome/*/
+							font-family: FontAwesome;
+							font-size: 25px;
+							color: #fff;
+							display: inline-block;
+							vertical-align: middle;
+							position: absolute;
+							right: 10px;
+							z-index: 0;
+						}
+					}
+					.wpcf7-not-valid-tip{ //
+						display: inline-block;
+						position: absolute;
+						vertical-align: top;
+						right: 0;
+						top: 0;
+					}
+					.ajax-loader{
+						display: inline-block;
+						position: absolute;
+						right: 0;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+				}
+				
+			}
+		}
+		.contact_us_form{
+			ul{
+				margin:0;
+				padding:0;
+				list-style:none;
+				li{
+					//height: 50px;
+					margin-bottom: 20px;
+						
+					
+					.contact_us_label{
+						color: #252525;
+						font-family:@jws_theme_google_font_1;
+						font-size:14px;
+						font-weight:700;
+					}
+					.wpcf7-submit{
+						font-family:@jws_theme_google_font_2;
+						font-size:16px;
+						text-transform:uppercase;
+						font-weight:700;
+						margin:0 !important;
+						color:#fff;
+						padding:0;
+						line-height:50px;
+						max-width:165px;
+						background: @jws_theme_primary_color;
+						float:right;
+						
+					}
+					.wpcf7-form-control-wrap{ /* container input, not submit button*/
+						.wpcf7-form-control{  /* input*/
+							border: 1px solid fadeout(#fff,60); //40%
+							margin:0;
+							color: #252525;
+							background:#ebebeb;
+							.placeholder(fadeout(#898989,60));
+							&.wpcf7-textarea{
+								width: 100% !important;
+							}
+						}
+					}
+					&:last-child{
+						position:relative;
+						height:50px;
+					
+					}
+					.wpcf7-not-valid-tip{ //
+						    display: inline-block;
+							position: absolute;
+							right: 0;
+							line-height: 50px;
+					}
+					.ajax-loader{
+						display: inline-block;
+						position: absolute;
+						right: 0;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+				}
+			}
+		}
+	}	
+ } 
+/* Homepage1 style1, add class homepage_wpctf7 to vc_row*/
+.homepage_wpctf7{
+	 .wpcf7{
+		.wpcf7-form{
+			margin-top: 10px;
+			padding-right:40px;
+			ul{
+				margin:0;
+				padding:0;
+				li{
+					height: 50px;
+					margin-bottom: 20px;
+					br{
+						display:none;
+					}
+					display:block;
+					vertical-align:top;
+					position:relative;
+					.make_appo_label{ /*Style for label*/
+						display:inline-block;
+						float:left;
+						color: #fff;
+						//position: absolute;
+						//top: 35%;
+						//width: 80px;
+						//border-bottom: 1px solid rgba(255,255,255,0.4);
+						font-family:@jws_theme_google_font_1;
+						font-size:14px;
+						text-transform:uppercase;
+						font-weight:600;
+						border-bottom: 1px solid fadeout(#fff,60);
+						width: 75px;
+					}
+					.wpcf7-submit{
+						//.btn-transparent;
+						border-radius: 25px;
+						//float: right;
+						background:#fff;
+						color:#898989;
+						font-family:@jws_theme_google_font_2;
+						font-size:16px;
+						text-transform:uppercase;
+						font-weight:700;
+						margin:0 !important;
+						//max-width:154px;
+						display:inline-block;
+						padding:15px 20px;
+						//line-height:50px;				
+						&:hover{
+							background: #FAFAFA !important;
+							border-color: #b6cbf3 !important;
+							color: #397cfd;				}
+					}
+					.wpcf7-form-control-wrap{ //container input !submit
+						display:inline-block;
+						float:right;
+						width: ~"calc( 100% - 75px )" !important;
+						.wpcf7-form-control{ /*input*/
+							position:relative;
+							//left:80px;
+							background: rgba(255,255,255,0.2);
+							border: 1px solid fadeout(#fff,60); //40%
+							//padding: 10px;
+							margin:0;
+							//width: 100%;
+							color: #fff;
+							height:50px;
+							border-radius: 25px;
+							.placeholder(#fff);
+							//transition: .3s;
+							//-webkit-transition: .3s;
+							//max-width:370px;
+					 	}
+						input[type="date"]{ /* class date-313*/
+							//max-width: 198px!important;
+							//width:190px;
+							//float: left;
+							//display:inline-block;
+							//vertical-align:top; 
+							&::-webkit-clear-button {
+								display: none;
+							}
+							&::-webkit-inner-spin-button {
+								display: none;
+							}
+							&::-webkit-calendar-picker-indicator {
+								opacity:0;
+								z-index:9;
+								position:relative;
+								width:20px;
+								height:20px;
+							}
+							
+							&:before{
+								content: "\f073"; 	/*http://astronautweb.co/snippet/font-awesome/*/
+								font-family: FontAwesome;
+								font-size: 25px;
+								color: #fff;
+								display: inline-block;
+								vertical-align: middle;
+								position: absolute;
+								right: 10px;
+								z-index: 0;
+							}
+						}
+						.wpcf7-not-valid-tip{ //
+							display: none;
+							position: absolute;
+							right: 0;
+							float: right;
+						}
+						
+					}
+					.ajax-loader{
+						display: inline-block;
+						position: absolute;
+						right: 0;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+					&:nth-child(4n){
+						display:inline-block;
+						width: ~"calc( 100% - 180px)";
+						margin-right: 15px;
+						//float:left;
+						@media (max-width:1199px) and (min-width: 992px){
+							display:block;
+							width:100%;
+							
+						}
+						@media (max-width:479px){
+							display:block;
+							float:none;
+						}
+					}
+					&:last-child{
+						display:inline-block;
+						vertical-align:middle;
+						width:160px;
+						//float:right;
+						/*display: inline-block;
+						width: 100%;
+						padding: 15px;*/
+						@media (max-width:1199px) and (min-width: 992px){
+							float:right;
+						}
+					}
+				}
+			}
+			.wpcf7-validation-errors{
+				position: absolute;
+				bottom: -50px;
+				right: 0;
+				color:#fff;
+			}
+			.wpcf7-mail-sent-ok{
+				border: 2px solid #69e036;
+				position: absolute;
+				bottom: -30px;
+				right: 0;
+				color: #fff;
+			}
+		}
+	}
+}
+/* Aboutpage / add class aboutpage-wpcf7 to vc_row{title, ctf7}*/
+.aboutpage-wpcf7{
+	background: @jws_theme_primary_color;
+	padding: 0px 20px 35px 20px;
+	.medicare-title-default{
+		margin-bottom: 26px;
+		.medicare-title{
+			margin-bottom:4px;
+			margin-top: 40px;
+		}
+		.medicare_sub_title {
+			color:#fff;
+			font-family:@jws_theme_google_font_1;
+			font-weight:400;
+			font-size:14px;
+		}
+	}
+	.wpcf7{
+		ul{
+			li{
+				position:relative;
+				height: initial!important;
+				margin-bottom: 21px!important;
+				.make_appo_label{
+					margin-bottom:7px;
+				}
+				.wpcf7-submit{
+					line-height:48px;
+					background:#fff;
+					padding:0 25px;
+					//margin:20px 0;
+					position:relative;
+					top:7px;
+				}
+				.ajax-loader{
+					display: inline-block;
+					position: absolute;
+					right: 0;
+					top: 50%;
+					transform: translateY(-50%);
+				}
+				&:nth-child(4n){
+					display:inline-block;
+					float:left;
+					width: ~"calc(100% - 160px)";
+					
+				}
+				&:last-child{
+					position:relative;
+					display:inline-block;
+					top: 24px;
+					float:right;
+ 					width: 150px;
+					
+				}
+				.wpcf7-form-control-wrap{
+					.wpcf7-form-control{
+						font-size:14px;
+					}
+				}
+				@media( max-width:479px){
+					&:last-child, &:nth-child(4n){
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Homepage2 contact form*/
+.homepage2-right-column{
+	top:-72px;
+	@media (min-width: 1200px){
+		//padding-left: 45px !important;
+	}
+	@media (max-width: 767px){
+		top:0;
+	}
+	.homepage2-ctf7{
+		
+		.medicare-title-default{
+			background:#f06eaa;
+			margin-bottom:0;
+			border-radius: 6px 6px 0 0;
+			.medicare-title{
+				margin: 0;
+				//argin-bottom:0;
+				padding:30px 0;
+				color: #fff;
+			}
+		}
+		.wpcf7{
+			background:#f06eaa;
+			padding: 0 10px 20px !important;
+			margin:0px;
+			border-radius: 0 0 6px 6px;
+			.wpcf7-form{
+				ul{
+					li{
+						position:relative;
+						height:initial;
+						margin-bottom:17px;
+						label{
+							text-transform:uppercase;
+							line-height:22px;
+							margin-bottom:10px;
+						}
+						.wpcf7-form-control-wrap .wpcf7-form-control{
+							height:51px;
+							}
+						.wpcf7-submit{		
+							margin-top: 8px !important;
+							color: #fff;
+							background: #002331;
+							line-height: 72px;
+							padding: 0;
+							border: none;
+							font-size: 21px;
+							font-weight: 700;
+
+						}
+						.ajax-loader{
+							transform:initial;
+						}
+						.wpcf7-not-valid-tip{
+							color:#f7e700;
+						}
+						input{
+							border-radius:6px;
+							
+						}
+					}
+				}
+			}
+			.wpcf7-response-output{// wpcf7-display-none wpcf7-validation-errors
+				color:#fff;
+			}
+		}
+		
+	}
+}
+@media (max-width:1199px) and (min-width:768px){
+//.homepage_wpctf7 .wpcf7 .wpcf7-form ul li .wpcf7-form-control-wrap input[type="date"]
+	.homepage_wpctf7{
+		.wpcf7{
+			ul{
+				li{
+					&:nth-child(4n){
+						//display:block;
+						//float:none;	
+						//width:100%;							
+					}
+					&:last-child{
+						//position:relative;
+						//display:block;
+						//float:right;
+						//float:none;
+						//width: 100%;
+					}
+					.wpcf7-form-control-wrap{
+						input[type="date"]{
+							width:100% !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width:767px){
+	.homepage_wpctf7{
+		.wpcf7{
+			.wpcf7-form{
+				ul{
+					li{
+						&:nth-child(4n){
+							display:block;
+							float:none;	
+							width:100%;							
+						}
+						&:last-child{
+							position:relative;
+							display:block;
+							float:none;
+							width: 100%;
+						}
+						.wpcf7-form-control-wrap{
+							.wpcf7-form-control{
+								max-width:initial;
+							}
+							input[type="date"]{
+								width:100% !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width:991px) and (min-width: 768px){
+	.aboutpage-wpcf7{
+		.wpcf7{
+			ul{
+				li{
+					&:nth-child(4n){
+						display:block;
+						float:none;	
+						width:100%;							
+					}
+					&:last-child{
+						position:relative;
+						display:block;
+						float:none;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	
+}

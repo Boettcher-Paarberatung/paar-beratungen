@@ -1,0 +1,36 @@
+*
+	font-family: $main-font
+
+h1, h2, h3, h4, h5, h6, small
+	line-height: 120%
+	font-family: $highlight-font
+
+h1, h2, h3, h4
+	font-weight: bold
+
+small
+	text-transform: uppercase
+
+a
+	@include transition
+
+	&:hover, &:focus
+		@include transition
+
+.link
+	color: #d95e61
+	margin-top: 1.3em
+	font-size: 1em
+	font-weight: 600
+	text-decoration: none
+	padding-bottom: 2px
+	background-color: inherit
+
+	&:after
+		content: ' >>'
+
+	&:hover
+		border-bottom: 2px solid #d95e61
+		padding-bottom: 0
+		color: #d95e61
+		text-decoration: none

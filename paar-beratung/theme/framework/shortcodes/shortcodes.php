@@ -1,0 +1,1 @@
+<?php$elements = array(	'title',	'info_box',	'service_box',	'testimonial_slider',	'blog_carousel',	'blog_grid',	'portfolio_grid',	'logo',	'blog_grid_custom',	'gallery');foreach ($elements as $element) {	include($element .'/'. $element.'.php');}

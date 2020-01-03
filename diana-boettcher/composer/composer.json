@@ -1,0 +1,21 @@
+{
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://wpackagist.org"
+		}
+	],
+	"require" : {
+		"wpackagist-plugin/all-in-one-wp-migration" : "*",
+		"wpackagist-plugin/autoptimize" : "*",
+		"wpackagist-plugin/broken-link-checker" : "*",
+		"wpackagist-plugin/plugin-security-scanner" : "*",
+    "wpackagist-plugin/redirection" : "*",
+    "wpackagist-plugin/w3-total-cache" : "*",
+    "wpackagist-plugin/webba-booking-lite" : "*",
+    "wpackagist-plugin/wordpress-seo" : "*",
+    "wpackagist-plugin/worker" : "*",
+    "wpackagist-plugin/wp-htaccess-editor" : "*",
+    "wpackagist-plugin/wp-migrate-db" : "*",
+    "wpackagist-plugin/wp-smushit" : "*"
+	}
+}

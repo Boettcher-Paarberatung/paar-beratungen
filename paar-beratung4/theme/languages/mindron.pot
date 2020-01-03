@@ -1,0 +1,562 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mindron version 1.0\n"
+"POT-Creation-Date: 2018-05-19 15:19+0500\n"
+"PO-Revision-Date: 2018-05-19 15:19+0500\n"
+"Last-Translator: amir <amirkhan0617@gmail.com>\n"
+"Language-Team: Theme Arch <themearc@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;_n;_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../blog.php:15 ../includes/modules/shortcodes/blog_grid.php:29
+#: ../single.php:73
+msgid "By:"
+msgstr ""
+
+#: ../blog.php:23
+msgid "Read more"
+msgstr ""
+
+#: ../comments.php:20
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:37
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:42
+msgid "Comments are closed."
+msgstr ""
+
+#: ../functions.php:34
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:62
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../functions.php:64 ../functions.php:83
+msgid "Widgets in this area will be shown on the right-hand side."
+msgstr ""
+
+#: ../functions.php:71
+msgid "Footer Sidebar"
+msgstr ""
+
+#: ../functions.php:73
+msgid "Widgets in this area will be shown in Footer Area."
+msgstr ""
+
+#: ../functions.php:81
+msgid "Blog Listing"
+msgstr ""
+
+#: ../functions.php:167 ../functions.php:168 ../functions.php:169
+#: ../functions.php:170 ../functions.php:171 ../functions.php:172
+msgid "on"
+msgstr ""
+
+#: ../includes/library/functions.php:26 ../includes/library/widgets.php:131
+#: ../includes/library/widgets.php:292 ../includes/library/widgets.php:534
+msgid "All Categories"
+msgstr ""
+
+#: ../includes/library/functions.php:50
+msgid "No Sidebar"
+msgstr ""
+
+#: ../includes/library/functions.php:115
+msgid "Home"
+msgstr ""
+
+#: ../includes/library/functions.php:163 ../includes/library/functions.php:164
+#: ../includes/library/functions.php:165 ../includes/library/functions.php:166
+msgid "Archive for "
+msgstr ""
+
+#: ../includes/library/functions.php:167
+msgid "Search Results for "
+msgstr ""
+
+#: ../includes/library/functions.php:168
+msgid "404 - Not Found"
+msgstr ""
+
+#: ../includes/library/functions.php:186
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: ../includes/library/functions.php:213
+msgid "You must agreed the policy"
+msgstr ""
+
+#: ../includes/library/functions.php:223
+msgid "Registration Successful - An email is sent"
+msgstr ""
+
+#: ../includes/library/functions.php:227
+msgid "Username or email already exists.  Password inherited."
+msgstr ""
+
+#: ../includes/library/functions.php:252
+msgid "Reply"
+msgstr ""
+
+#: ../includes/library/functions.php:285
+msgid "Your name"
+msgstr ""
+
+#: ../includes/library/functions.php:286
+msgid "Email address"
+msgstr ""
+
+#: ../includes/library/functions.php:288
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: ../includes/library/functions.php:300
+msgid "Your Comments"
+msgstr ""
+
+#: ../includes/library/functions.php:303
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../includes/library/functions.php:308
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../includes/library/functions.php:309
+msgid "Cancel reply"
+msgstr ""
+
+#: ../includes/library/functions.php:310
+msgid "Post Comment "
+msgstr ""
+
+#: ../includes/library/functions.php:336
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../includes/library/functions.php:615
+msgid "Poor"
+msgstr ""
+
+#: ../includes/library/functions.php:615
+msgid "Satisfactory"
+msgstr ""
+
+#: ../includes/library/functions.php:615
+msgid "Good"
+msgstr ""
+
+#: ../includes/library/functions.php:615
+msgid "Better"
+msgstr ""
+
+#: ../includes/library/functions.php:615
+msgid "Awesome"
+msgstr ""
+
+#: ../includes/library/functions.php:637
+#, php-format
+msgid "Average Rating %s"
+msgstr ""
+
+#: ../includes/library/functions.php:677
+msgid "Loading..."
+msgstr ""
+
+#: ../includes/library/functions.php:726
+msgid "logo"
+msgstr ""
+
+#: ../includes/library/widgets.php:11
+msgid "Mindron Abous Us"
+msgstr ""
+
+#: ../includes/library/widgets.php:11 ../includes/library/widgets.php:160
+msgid "Show the information about company"
+msgstr ""
+
+#: ../includes/library/widgets.php:54
+msgid "Footer Logo Url: "
+msgstr ""
+
+#: ../includes/library/widgets.php:58
+msgid "Content:"
+msgstr ""
+
+#: ../includes/library/widgets.php:72
+msgid "Mindron Services"
+msgstr ""
+
+#: ../includes/library/widgets.php:72
+msgid "Show the Services"
+msgstr ""
+
+#: ../includes/library/widgets.php:117
+msgid "Services"
+msgstr ""
+
+#: ../includes/library/widgets.php:122 ../includes/library/widgets.php:212
+#: ../includes/library/widgets.php:380 ../includes/library/widgets.php:524
+msgid "Title: "
+msgstr ""
+
+#: ../includes/library/widgets.php:126 ../includes/library/widgets.php:287
+msgid "Number of posts: "
+msgstr ""
+
+#: ../includes/library/widgets.php:130 ../includes/library/widgets.php:291
+#: ../includes/library/widgets.php:533
+msgid "Category"
+msgstr ""
+
+#: ../includes/library/widgets.php:160
+msgid "Mindron Get in Touch"
+msgstr ""
+
+#: ../includes/library/widgets.php:204
+msgid "Get In Touch"
+msgstr ""
+
+#: ../includes/library/widgets.php:216 ../includes/library/widgets.php:454
+#: ../includes/modules/shortcodes/contact_form.php:28
+msgid "Phone:"
+msgstr ""
+
+#: ../includes/library/widgets.php:217 ../includes/library/widgets.php:455
+msgid "Phone"
+msgstr ""
+
+#: ../includes/library/widgets.php:220
+#: ../includes/modules/shortcodes/contact_form.php:25
+msgid "Address:"
+msgstr ""
+
+#: ../includes/library/widgets.php:221
+msgid "Address"
+msgstr ""
+
+#: ../includes/library/widgets.php:224 ../includes/library/widgets.php:458
+msgid "Email:"
+msgstr ""
+
+#: ../includes/library/widgets.php:225 ../includes/library/widgets.php:459
+msgid "Email"
+msgstr ""
+
+#: ../includes/library/widgets.php:228
+msgid "Show Social Icons:"
+msgstr ""
+
+#: ../includes/library/widgets.php:243
+msgid "Mindron Services Detail Sidebar"
+msgstr ""
+
+#: ../includes/library/widgets.php:243
+msgid "Show the Services Detail Page Sidebar"
+msgstr ""
+
+#: ../includes/library/widgets.php:323
+msgid "Mindron Our Brochures"
+msgstr ""
+
+#: ../includes/library/widgets.php:323
+msgid "Show the info Our Brochures"
+msgstr ""
+
+#: ../includes/library/widgets.php:341
+msgid "Pdf.  Download"
+msgstr ""
+
+#: ../includes/library/widgets.php:349
+msgid "Doc.  Download"
+msgstr ""
+
+#: ../includes/library/widgets.php:375
+msgid "Our Brochures"
+msgstr ""
+
+#: ../includes/library/widgets.php:384
+msgid "PDF Link Here:"
+msgstr ""
+
+#: ../includes/library/widgets.php:385 ../includes/library/widgets.php:389
+msgid "#"
+msgstr ""
+
+#: ../includes/library/widgets.php:388
+msgid "WORD Link Here:"
+msgstr ""
+
+#: ../includes/library/widgets.php:404
+msgid "Mindron Info Widget"
+msgstr ""
+
+#: ../includes/library/widgets.php:404
+msgid "Show Services Single Info Widget"
+msgstr ""
+
+#: ../includes/library/widgets.php:473
+msgid "Midron Recent News"
+msgstr ""
+
+#: ../includes/library/widgets.php:473
+msgid "Show the Recent News"
+msgstr ""
+
+#: ../includes/library/widgets.php:519
+msgid "Recent News"
+msgstr ""
+
+#: ../includes/library/widgets.php:528
+msgid "No. of Posts:"
+msgstr ""
+
+#: ../includes/loader.php:152 ../includes/loader.php:153
+msgid "Theme Options"
+msgstr ""
+
+#: ../includes/modules/header_v1.php:58 ../includes/modules/header_v1.php:60
+#: ../includes/modules/header_v1.php:113 ../includes/modules/header_v1.php:115
+#: ../includes/modules/header_v2.php:20 ../includes/modules/header_v2.php:22
+#: ../includes/modules/header_v2.php:112 ../includes/modules/header_v2.php:114
+#: ../includes/modules/header_v3.php:57 ../includes/modules/header_v3.php:59
+#: ../includes/modules/header_v3.php:112 ../includes/modules/header_v3.php:114
+msgid "Mindron"
+msgstr ""
+
+#: ../includes/modules/header_v1.php:58 ../includes/modules/header_v1.php:113
+#: ../includes/modules/header_v2.php:20 ../includes/modules/header_v2.php:112
+#: ../includes/modules/header_v3.php:57 ../includes/modules/header_v3.php:112
+msgid "Arctica"
+msgstr ""
+
+#: ../includes/modules/header_v1.php:68 ../includes/modules/header_v1.php:122
+#: ../includes/modules/header_v2.php:51 ../includes/modules/header_v2.php:121
+#: ../includes/modules/header_v3.php:67 ../includes/modules/header_v3.php:121
+msgid "Get Appointment"
+msgstr ""
+
+#: ../includes/modules/shortcodes/about_us_two.php:15
+msgid "Just Call us. and"
+msgstr ""
+
+#: ../includes/modules/shortcodes/about_us_two.php:16
+msgid "or"
+msgstr ""
+
+#: ../includes/modules/shortcodes/contact_form.php:31
+msgid "email:"
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:610
+msgid "Update Required"
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:914
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2620
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3667
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1021
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1021
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1024
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1024
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2429
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2479
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2483
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2487
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2569
+msgid "unknown"
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2620
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2771
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2995
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3021
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3039
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3604
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/plugins.php:63
+msgid "Theme Support (Required)"
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/plugins.php:74
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/plugins.php:85
+msgid "KingComposer"
+msgstr ""
+
+#: ../includes/thirdparty/tgm-plugin-activation/plugins.php:90
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../includes/vc_map.php:6
+msgid "bbPress Forums"
+msgstr ""
+
+#: ../includes/vc_map.php:9
+msgid "Jollyall"
+msgstr ""
+
+#: ../includes/vc_map.php:16
+msgid "Forum"
+msgstr ""
+
+#: ../includes/vc_map.php:177
+msgid "Container"
+msgstr ""
+
+#: ../includes/vc_map.php:180
+msgid "Choose whether you want to add a container before row or not."
+msgstr ""
+
+#: ../index.php:32
+msgid "Blog"
+msgstr ""
+
+#: ../search.php:70
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../searchform.php:5
+msgid "Enter Search Keywords"
+msgstr ""
+
+#: ../searchform2.php:3
+msgid "Search"
+msgstr ""
+
+#: ../searchform3.php:3
+msgid "Search Your Answer"
+msgstr ""
+
+#: ../sidebar.php:15
+msgid "by : "
+msgstr ""
+
+#: ../sidebar.php:17
+msgid "in : "
+msgstr ""
+
+#: ../sidebar.php:19
+msgid " 123 Likes "
+msgstr ""
+
+#: ../sidebar.php:21
+msgid " Print "
+msgstr ""
+
+#: ../sidebar.php:35
+msgid "Read More"
+msgstr ""
+
+#: ../single.php:83
+msgid "Pages: "
+msgstr ""
+
+#: ../tpl-comming_soon.php:15
+msgid "We are Coming Soon..."
+msgstr ""
+
+#: ../tpl-comming_soon.php:16
+msgid "2018/8/17"
+msgstr ""
+
+#: ../tpl-comming_soon.php:17
+msgid "Website is under construction. We will be here soon with new"
+msgstr ""
+
+#: ../tpl-comming_soon.php:17
+msgid "awesome site, Subscribe to be notified."
+msgstr ""
+
+#: ../tpl-comming_soon.php:22
+msgid "Enter your email address"
+msgstr ""
+
+#: ../tpl-comming_soon.php:25
+msgid "Subscribe now"
+msgstr ""

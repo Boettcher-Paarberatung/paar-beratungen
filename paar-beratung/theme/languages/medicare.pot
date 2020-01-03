@@ -1,0 +1,2859 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-08 07:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the template
+msgid "Template Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "No Title Bar Template"
+msgstr ""
+
+#. Name of the template
+msgid "List Products Template"
+msgstr ""
+
+#: archive-portfolio.php:109
+msgid "All Work"
+msgstr ""
+
+#: archive-portfolio.php:158
+msgid "View More"
+msgstr ""
+
+#: archive-portfolio.php:183 framework/template-functions.php:560
+#: framework/template-functions.php:944
+#: framework/shortcodes/blog_grid/blog_grid.php:181
+#: framework/shortcodes/portfolio_grid/portfolio_grid.php:130
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: archive-portfolio.php:185 framework/template-functions.php:561
+#: framework/template-functions.php:946
+#: framework/shortcodes/blog_grid/blog_grid.php:182
+#: framework/shortcodes/portfolio_grid/portfolio_grid.php:131
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#. Name of the template
+msgid "404 Template"
+msgstr ""
+
+#: comments.php:15
+msgid "Comment"
+msgstr ""
+
+#: comments.php:15
+msgid "<label>1</label> Comment "
+msgstr ""
+
+#: comments.php:15
+msgid "<label>%</label> Comments"
+msgstr ""
+
+#: comments.php:22 comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:23 comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:24 comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:62
+msgid "Name"
+msgstr ""
+
+#: comments.php:65 framework/widgets/news-letter.php:14
+msgid "Email"
+msgstr ""
+
+#: comments.php:67 framework/templates/portfolio/single/entry.php:75
+msgid "Website"
+msgstr ""
+
+#: comments.php:76
+msgid "<span>Leave your comment</span>"
+msgstr ""
+
+#: comments.php:77
+#, php-format
+msgid "Leave a comment %s"
+msgstr ""
+
+#: comments.php:79
+msgid "Send Message"
+msgstr ""
+
+#: comments.php:82
+msgid "Content"
+msgstr ""
+
+#: comments.php:86
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:92
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: single.php:105 single-services.php:88
+msgid "Related Posts"
+msgstr ""
+
+#: functions.php:50
+msgid "MegaMenu_widget"
+msgstr ""
+
+#: functions.php:54
+msgid "Add widget here to appear in the MegaMenu"
+msgstr ""
+
+#: functions.php:59
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:65
+msgid "Add widget here to appear in the Sidebar (blog)"
+msgstr ""
+
+#: functions.php:68
+msgid "Service Right Sidebar"
+msgstr ""
+
+#: functions.php:76
+msgid "Header Top Widget 1"
+msgstr ""
+
+#: functions.php:84
+msgid "Header Top Widget 2"
+msgstr ""
+
+#: functions.php:92
+msgid "Header Center 1"
+msgstr ""
+
+#: functions.php:141
+msgid "Footer Top 1"
+msgstr ""
+
+#: functions.php:189
+msgid "Footer Center 1"
+msgstr ""
+
+#: functions.php:197
+msgid "Footer Center 2"
+msgstr ""
+
+#: functions.php:205
+msgid "Footer Center 3"
+msgstr ""
+
+#: functions.php:213
+msgid "Footer Center 4"
+msgstr ""
+
+#: functions.php:221
+msgid "Footer Center 5"
+msgstr ""
+
+#: functions.php:237
+msgid "Footer Bottom Left"
+msgstr ""
+
+#: functions.php:245
+msgid "Footer Bottom Right"
+msgstr ""
+
+#: functions.php:253
+msgid "About US"
+msgstr ""
+
+#: functions.php:261
+msgid "Contact US address"
+msgstr ""
+
+#: functions.php:269
+#, php-format
+msgid "Custom Widget %d"
+msgstr ""
+
+#: functions.php:275
+msgid "Add widget here to appear in your site"
+msgstr ""
+
+#: functions.php:288
+msgid "Woocommerce Canvas Sidebar"
+msgstr ""
+
+#: functions.php:296
+msgid "Woocommerce Account Sidebar"
+msgstr ""
+
+#: functions.php:304
+msgid "Woocommerce Left Sidebar(see home page 8)"
+msgstr ""
+
+#: functions.php:312
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: functions.php:320
+msgid "Woocommerce Sidebar For FullWidth"
+msgstr ""
+
+#: functions.php:328
+msgid "Woocommerce Shop Sidebar"
+msgstr ""
+
+#: functions.php:336
+msgid "Woocommerce Shop Full Width Sidebar"
+msgstr ""
+
+#: functions.php:344
+msgid "Woocommerce Shop Single Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "No Container Template"
+msgstr ""
+
+#: framework/template-functions.php:18
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/template-functions.php:170
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: framework/template-functions.php:173
+msgid "404"
+msgstr ""
+
+#: framework/template-functions.php:176
+msgid "Blog"
+msgstr ""
+
+#: framework/template-functions.php:190 framework/template-functions.php:307
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: framework/template-functions.php:193 framework/template-functions.php:309
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: framework/template-functions.php:195 framework/template-functions.php:311
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: framework/template-functions.php:197 framework/template-functions.php:313
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: framework/template-functions.php:200 framework/template-functions.php:315
+msgid "Asides"
+msgstr ""
+
+#: framework/template-functions.php:202 framework/template-functions.php:317
+msgid "Galleries"
+msgstr ""
+
+#: framework/template-functions.php:204 framework/template-functions.php:319
+msgid "Images"
+msgstr ""
+
+#: framework/template-functions.php:206 framework/template-functions.php:321
+msgid "Videos"
+msgstr ""
+
+#: framework/template-functions.php:208 framework/template-functions.php:323
+msgid "Quotes"
+msgstr ""
+
+#: framework/template-functions.php:210 framework/template-functions.php:325
+msgid "Links"
+msgstr ""
+
+#: framework/template-functions.php:212 framework/template-functions.php:327
+msgid "Statuses"
+msgstr ""
+
+#: framework/template-functions.php:214 framework/template-functions.php:329
+msgid "Audios"
+msgstr ""
+
+#: framework/template-functions.php:216 framework/template-functions.php:331
+msgid "Chats"
+msgstr ""
+
+#: framework/template-functions.php:275
+msgid "Main Logo"
+msgstr ""
+
+#. Name of the theme
+#: framework/template-functions.php:277
+#: framework/includes/vc_element_shortcodes/info_box.php:5
+#: framework/includes/vc_element_shortcodes/logo.php:10
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:6
+#: framework/includes/vc_element_shortcodes/service_box.php:5
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:6
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:6
+#: framework/includes/vc_element_shortcodes/gallery.php:8
+#: framework/includes/vc_element_shortcodes/title.php:10
+#: framework/includes/vc_element_shortcodes/blog_grid.php:6
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:10
+msgid "Medicare"
+msgstr ""
+
+#: framework/template-functions.php:293 framework/template-functions.php:354
+#: framework/template-functions.php:361
+msgid "Home"
+msgstr ""
+
+#: framework/template-functions.php:295
+msgid "Search Keyword: "
+msgstr ""
+
+#: framework/template-functions.php:333
+msgid "Archives"
+msgstr ""
+
+#: framework/template-functions.php:369
+msgid "Archive by category: "
+msgstr ""
+
+#: framework/template-functions.php:372
+msgid "Search results for: "
+msgstr ""
+
+#: framework/template-functions.php:490
+msgid "Posts tagged: "
+msgstr ""
+
+#: framework/template-functions.php:494
+msgid "Articles posted by "
+msgstr ""
+
+#: framework/template-functions.php:496
+msgid "Error 404"
+msgstr ""
+
+#: framework/template-functions.php:501
+msgid "Page"
+msgstr ""
+
+#: framework/template-functions.php:587
+msgid ""
+"<span class=\"btn text-left btn-default\"><i class=\"fa fa-caret-left\"></i>"
+"&nbsp; Previous</span>"
+msgstr ""
+
+#: framework/template-functions.php:588
+msgid ""
+"<span class=\"text-right btn btn-default\">Next &nbsp;<i class=\"fa fa-caret-"
+"right\"></i></span>"
+msgstr ""
+
+#: framework/template-functions.php:628
+msgid " year ago"
+msgstr ""
+
+#: framework/template-functions.php:629
+msgid " month ago"
+msgstr ""
+
+#: framework/template-functions.php:630
+msgid " day ago"
+msgstr ""
+
+#: framework/template-functions.php:631
+msgid " hou ago"
+msgstr ""
+
+#: framework/template-functions.php:634
+msgid " years ago"
+msgstr ""
+
+#: framework/template-functions.php:635
+msgid " months ago"
+msgstr ""
+
+#: framework/template-functions.php:636
+msgid " days ago"
+msgstr ""
+
+#: framework/template-functions.php:637
+msgid " hour ago"
+msgstr ""
+
+#: framework/template-functions.php:669
+#, php-format
+msgid "%s"
+msgstr ""
+
+#. <a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ); ?>">
+#. <?php
+#. translators: 1: date, 2: time
+#. printf( esc_html__('%1$s %2$s','medicare'), get_comment_date('M, d, Y'),  get_comment_time('g:i A') ); ?>
+#. </a>
+#: framework/template-functions.php:689
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/template-functions.php:837
+msgid "TAGS"
+msgstr ""
+
+#: framework/template-functions.php:843
+#: framework/meta-boxes/product_options.php:4
+msgid "Video"
+msgstr ""
+
+#: framework/template-functions.php:855
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/meta-boxes/post_doctor.php:6
+msgid "Enter position of member."
+msgstr ""
+
+#: framework/meta-boxes/post_doctor.php:14
+msgid "Enter social of member."
+msgstr ""
+
+#: framework/meta-boxes/post_audio.php:17
+msgid "Please enter in the URL to the (OGG,MP3,WAV) file"
+msgstr ""
+
+#: framework/meta-boxes/post_portfolio.php:5
+msgid "Create by: "
+msgstr ""
+
+#: framework/meta-boxes/post_portfolio.php:28
+msgid "Participants: "
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:43
+msgid "Page Options"
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:44
+msgid "Product Options"
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:45
+msgid "Video Settings"
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:46
+msgid "Audio Settings"
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:47
+msgid "Quote Settings"
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:48
+msgid "Link Settings"
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:49
+msgid "Testimonial Settings"
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:50
+msgid "Portfolio Settings"
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:51
+msgid "Doctor Settings"
+msgstr ""
+
+#: framework/meta-boxes/meta-boxes.php:52
+msgid "Services Brochure"
+msgstr ""
+
+#: framework/meta-boxes/post_quote.php:17
+msgid "Please type the text for your quote here."
+msgstr ""
+
+#: framework/meta-boxes/post_quote.php:22
+msgid "Please type the text for author quote here."
+msgstr ""
+
+#: framework/meta-boxes/post_link.php:6
+msgid "Please input the URL for your link. http://www.youwebsite.com"
+msgstr ""
+
+#: framework/meta-boxes/post_testimonial.php:6
+msgid "Enter patient for post."
+msgstr ""
+
+#: framework/meta-boxes/blog_options.php:16
+msgid "HEADER"
+msgstr ""
+
+#: framework/meta-boxes/blog_options.php:17
+msgid "TITLE BAR"
+msgstr ""
+
+#: framework/meta-boxes/blog_options.php:18
+msgid "FOOTER"
+msgstr ""
+
+#: framework/meta-boxes/blog_options.php:19
+msgid "OTHER"
+msgstr ""
+
+#: framework/meta-boxes/blog_options.php:33
+msgid "Custom Header Logo"
+msgstr ""
+
+#: framework/meta-boxes/blog_options.php:56
+msgid "Main Navigation"
+msgstr ""
+
+#: framework/meta-boxes/post_video.php:41
+msgid ""
+"Please upload the (MP4,WebM,Ogg) video file. You must include both formats."
+msgstr ""
+
+#: framework/meta-boxes/post_video.php:45
+msgid ""
+"Image should be at least 680px wide. Click the \"Upload\" button to begin "
+"uploading your image, followed by \"Select File\" once you have made your "
+"selection. Only applies to self hosted videos."
+msgstr ""
+
+#: framework/meta-boxes/post_video.php:50
+msgid "Enter in a Youtube (http://youtu.be/ID)"
+msgstr ""
+
+#: framework/meta-boxes/post_video.php:55
+msgid "Enter in a Vimeo (http://vimeo.com/ID)"
+msgstr ""
+
+#: framework/meta-boxes/post_video.php:63
+msgid "Video Formats and Browser Support"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:126
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: framework/megamenu/mega-menu.php:130
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:154
+msgid "Move up"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:167
+msgid "Move down"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:169 framework/megamenu/mega-menu.php:171
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:180
+msgid "URL"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:187
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:193
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:200
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:205
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:211
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:217 framework/widgets/news-letter.php:188
+#: framework/includes/vc_element_shortcodes/info_box.php:41
+#: framework/includes/vc_element_shortcodes/service_box.php:68
+msgid "Description"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:219
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:249
+msgid "Standard Dropdown"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:250
+msgid "2 columns dropdown"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:251
+msgid "3 columns dropdown"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:253
+msgid "4 columns dropdown"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:254
+msgid "5 columns dropdown"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:255
+msgid "6 columns dropdown"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:279
+msgid "Auto drop"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:280
+msgid "Drop To Left Side"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:281
+msgid "Drop To Right Side"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:282
+msgid "Drop To Center"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:283
+msgid "Full width"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:302
+msgid "Select Widget Area"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:322 framework/megamenu/mega-menu.php:338
+#: framework/includes/vc_extra_params.php:135
+#: framework/includes/vc_element_shortcodes/logo.php:47
+#: framework/includes/vc_element_shortcodes/title.php:88
+msgid "No"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:323 framework/megamenu/mega-menu.php:339
+msgid "Yes"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:371
+msgid "Click to browse icon"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:371
+msgid "Browse Icon"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:391
+msgid "Browse Image"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:392
+msgid "Clear"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:484
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:497
+msgid "Remove"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:498
+msgid "Cancel"
+msgstr ""
+
+#: framework/post-type/services.php:6
+msgctxt "taxonomy general name"
+msgid "Services Category"
+msgstr ""
+
+#: framework/post-type/services.php:7
+msgctxt "taxonomy singular name"
+msgid "Services Category"
+msgstr ""
+
+#: framework/post-type/services.php:8
+msgid "Search Services Category"
+msgstr ""
+
+#: framework/post-type/services.php:9
+msgid "All Services Category"
+msgstr ""
+
+#: framework/post-type/services.php:10
+msgid "Parent Services Category"
+msgstr ""
+
+#: framework/post-type/services.php:11
+msgid "Parent Services Category:"
+msgstr ""
+
+#: framework/post-type/services.php:12
+msgid "Edit Services Category"
+msgstr ""
+
+#: framework/post-type/services.php:13
+msgid "Update Services Category"
+msgstr ""
+
+#: framework/post-type/services.php:14
+msgid "Add New Services Category"
+msgstr ""
+
+#: framework/post-type/services.php:15
+msgid "New Services Category Name"
+msgstr ""
+
+#: framework/post-type/services.php:16
+msgid "Services Category"
+msgstr ""
+
+#: framework/post-type/services.php:32
+msgctxt "taxonomy general name"
+msgid "Services Tag"
+msgstr ""
+
+#: framework/post-type/services.php:33
+msgctxt "taxonomy singular name"
+msgid "Services Tag"
+msgstr ""
+
+#: framework/post-type/services.php:34
+msgid "Search Services Tag"
+msgstr ""
+
+#: framework/post-type/services.php:35
+msgid "All Services Tag"
+msgstr ""
+
+#: framework/post-type/services.php:36
+msgid "Parent Services Tag"
+msgstr ""
+
+#: framework/post-type/services.php:37
+msgid "Parent Services Tag:"
+msgstr ""
+
+#: framework/post-type/services.php:38
+msgid "Edit Services Tag"
+msgstr ""
+
+#: framework/post-type/services.php:39
+msgid "Update Services Tag"
+msgstr ""
+
+#: framework/post-type/services.php:40
+msgid "Add New Services Tag"
+msgstr ""
+
+#: framework/post-type/services.php:41
+msgid "New Services Tag Name"
+msgstr ""
+
+#: framework/post-type/services.php:42
+msgid "Services Tag"
+msgstr ""
+
+#: framework/post-type/services.php:60
+msgctxt "Post Type General Name"
+msgid "Services"
+msgstr ""
+
+#: framework/post-type/services.php:61
+msgctxt "Post Type Singular Name"
+msgid "Services Item"
+msgstr ""
+
+#: framework/post-type/services.php:62 framework/post-type/services.php:75
+msgid "Services"
+msgstr ""
+
+#: framework/post-type/services.php:63 framework/post-type/testimonial.php:63
+#: framework/post-type/doctor.php:64 framework/post-type/portfolio.php:70
+#: framework/post-type/team.php:18 framework/post-type/gallery.php:39
+msgid "Parent Item:"
+msgstr ""
+
+#: framework/post-type/services.php:64 framework/post-type/testimonial.php:64
+#: framework/post-type/doctor.php:65 framework/post-type/portfolio.php:72
+#: framework/post-type/team.php:20 framework/post-type/gallery.php:40
+msgid "All Items"
+msgstr ""
+
+#: framework/post-type/services.php:65 framework/post-type/testimonial.php:65
+#: framework/post-type/doctor.php:66 framework/post-type/portfolio.php:74
+#: framework/post-type/team.php:22 framework/post-type/gallery.php:41
+msgid "View Item"
+msgstr ""
+
+#: framework/post-type/services.php:66 framework/post-type/testimonial.php:66
+#: framework/post-type/doctor.php:67 framework/post-type/portfolio.php:76
+#: framework/post-type/team.php:24 framework/post-type/gallery.php:42
+msgid "Add New Item"
+msgstr ""
+
+#: framework/post-type/services.php:67 framework/post-type/testimonial.php:67
+#: framework/post-type/doctor.php:68 framework/post-type/portfolio.php:78
+#: framework/post-type/team.php:26 framework/post-type/gallery.php:43
+msgid "Add New"
+msgstr ""
+
+#: framework/post-type/services.php:68 framework/post-type/testimonial.php:68
+#: framework/post-type/doctor.php:69 framework/post-type/portfolio.php:80
+#: framework/post-type/team.php:28 framework/post-type/gallery.php:44
+msgid "Edit Item"
+msgstr ""
+
+#: framework/post-type/services.php:69 framework/post-type/testimonial.php:69
+#: framework/post-type/doctor.php:70 framework/post-type/portfolio.php:82
+#: framework/post-type/team.php:30 framework/post-type/gallery.php:45
+msgid "Update Item"
+msgstr ""
+
+#: framework/post-type/services.php:70 framework/post-type/testimonial.php:70
+#: framework/post-type/doctor.php:71 framework/post-type/portfolio.php:84
+#: framework/post-type/team.php:32 framework/post-type/gallery.php:46
+msgid "Search Item"
+msgstr ""
+
+#: framework/post-type/services.php:71 framework/post-type/testimonial.php:71
+#: framework/post-type/doctor.php:72 framework/post-type/portfolio.php:86
+#: framework/post-type/team.php:34 framework/post-type/gallery.php:47
+msgid "Not found"
+msgstr ""
+
+#: framework/post-type/services.php:72 framework/post-type/testimonial.php:72
+#: framework/post-type/doctor.php:73 framework/post-type/portfolio.php:88
+#: framework/post-type/team.php:36 framework/post-type/gallery.php:48
+msgid "Not found in Trash"
+msgstr ""
+
+#: framework/post-type/services.php:76
+msgid "Services Description"
+msgstr ""
+
+#: framework/post-type/testimonial.php:6
+msgctxt "taxonomy general name"
+msgid "Testimonial Category"
+msgstr ""
+
+#: framework/post-type/testimonial.php:7
+msgctxt "taxonomy singular name"
+msgid "Testimonial Category"
+msgstr ""
+
+#: framework/post-type/testimonial.php:8
+msgid "Search Testimonial Category"
+msgstr ""
+
+#: framework/post-type/testimonial.php:9
+msgid "All Testimonial Category"
+msgstr ""
+
+#: framework/post-type/testimonial.php:10
+msgid "Parent Testimonial Category"
+msgstr ""
+
+#: framework/post-type/testimonial.php:11
+msgid "Parent Testimonial Category:"
+msgstr ""
+
+#: framework/post-type/testimonial.php:12
+msgid "Edit Testimonial Category"
+msgstr ""
+
+#: framework/post-type/testimonial.php:13
+msgid "Update Testimonial Category"
+msgstr ""
+
+#: framework/post-type/testimonial.php:14
+msgid "Add New Testimonial Category"
+msgstr ""
+
+#: framework/post-type/testimonial.php:15
+msgid "New Testimonial Category Name"
+msgstr ""
+
+#: framework/post-type/testimonial.php:16
+msgid "Testimonial Category"
+msgstr ""
+
+#: framework/post-type/testimonial.php:32
+msgctxt "taxonomy general name"
+msgid "Testimonial Tag"
+msgstr ""
+
+#: framework/post-type/testimonial.php:33
+msgctxt "taxonomy singular name"
+msgid "Testimonial Tag"
+msgstr ""
+
+#: framework/post-type/testimonial.php:34
+msgid "Search Testimonial Tag"
+msgstr ""
+
+#: framework/post-type/testimonial.php:35
+msgid "All Testimonial Tag"
+msgstr ""
+
+#: framework/post-type/testimonial.php:36
+msgid "Parent Testimonial Tag"
+msgstr ""
+
+#: framework/post-type/testimonial.php:37
+msgid "Parent Testimonial Tag:"
+msgstr ""
+
+#: framework/post-type/testimonial.php:38
+msgid "Edit Testimonial Tag"
+msgstr ""
+
+#: framework/post-type/testimonial.php:39
+msgid "Update Testimonial Tag"
+msgstr ""
+
+#: framework/post-type/testimonial.php:40
+msgid "Add New Testimonial Tag"
+msgstr ""
+
+#: framework/post-type/testimonial.php:41
+msgid "New Testimonial Tag Name"
+msgstr ""
+
+#: framework/post-type/testimonial.php:42
+msgid "Testimonial Tag"
+msgstr ""
+
+#: framework/post-type/testimonial.php:60
+msgctxt "Post Type General Name"
+msgid "Testimonial"
+msgstr ""
+
+#: framework/post-type/testimonial.php:61
+msgctxt "Post Type Singular Name"
+msgid "Testimonial Item"
+msgstr ""
+
+#: framework/post-type/testimonial.php:62
+#: framework/post-type/testimonial.php:75
+msgid "Testimonial"
+msgstr ""
+
+#: framework/post-type/testimonial.php:76
+msgid "Testimonial Description"
+msgstr ""
+
+#: framework/post-type/doctor.php:7
+msgctxt "taxonomy general name"
+msgid "Doctor Category"
+msgstr ""
+
+#: framework/post-type/doctor.php:8
+msgctxt "taxonomy singular name"
+msgid "Doctor Category"
+msgstr ""
+
+#: framework/post-type/doctor.php:9
+msgid "Search Doctor Category"
+msgstr ""
+
+#: framework/post-type/doctor.php:10
+msgid "All Doctor Category"
+msgstr ""
+
+#: framework/post-type/doctor.php:11
+msgid "Parent Doctor Category"
+msgstr ""
+
+#: framework/post-type/doctor.php:12
+msgid "Parent Doctor Category:"
+msgstr ""
+
+#: framework/post-type/doctor.php:13
+msgid "Edit Doctor Category"
+msgstr ""
+
+#: framework/post-type/doctor.php:14
+msgid "Update Doctor Category"
+msgstr ""
+
+#: framework/post-type/doctor.php:15
+msgid "Add New Doctor Category"
+msgstr ""
+
+#: framework/post-type/doctor.php:16
+msgid "New Doctor Category Name"
+msgstr ""
+
+#: framework/post-type/doctor.php:17
+msgid "Doctor Category"
+msgstr ""
+
+#: framework/post-type/doctor.php:33
+msgctxt "taxonomy general name"
+msgid "Doctor Tag"
+msgstr ""
+
+#: framework/post-type/doctor.php:34
+msgctxt "taxonomy singular name"
+msgid "Doctor Tag"
+msgstr ""
+
+#: framework/post-type/doctor.php:35
+msgid "Search Doctor Tag"
+msgstr ""
+
+#: framework/post-type/doctor.php:36
+msgid "All Doctor Tag"
+msgstr ""
+
+#: framework/post-type/doctor.php:37
+msgid "Parent Doctor Tag"
+msgstr ""
+
+#: framework/post-type/doctor.php:38
+msgid "Parent Doctor Tag:"
+msgstr ""
+
+#: framework/post-type/doctor.php:39
+msgid "Edit Doctor Tag"
+msgstr ""
+
+#: framework/post-type/doctor.php:40
+msgid "Update Doctor Tag"
+msgstr ""
+
+#: framework/post-type/doctor.php:41
+msgid "Add New Doctor Tag"
+msgstr ""
+
+#: framework/post-type/doctor.php:42
+msgid "New Doctor Tag Name"
+msgstr ""
+
+#: framework/post-type/doctor.php:43
+msgid "Doctor Tag"
+msgstr ""
+
+#: framework/post-type/doctor.php:61
+msgctxt "Post Type General Name"
+msgid "Doctor"
+msgstr ""
+
+#: framework/post-type/doctor.php:62
+msgctxt "Post Type Singular Name"
+msgid "Doctor Item"
+msgstr ""
+
+#: framework/post-type/doctor.php:63 framework/post-type/doctor.php:76
+msgid "Doctor"
+msgstr ""
+
+#: framework/post-type/doctor.php:77
+msgid "Doctor Description"
+msgstr ""
+
+#: framework/post-type/portfolio.php:11
+msgctxt "taxonomy general name"
+msgid "Portfolio Category"
+msgstr ""
+
+#: framework/post-type/portfolio.php:13
+msgctxt "taxonomy singular name"
+msgid "Portfolio Category"
+msgstr ""
+
+#: framework/post-type/portfolio.php:15
+msgid "Search Portfolio Category"
+msgstr ""
+
+#: framework/post-type/portfolio.php:17
+msgid "All Portfolio Category"
+msgstr ""
+
+#: framework/post-type/portfolio.php:19
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: framework/post-type/portfolio.php:21
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: framework/post-type/portfolio.php:23
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: framework/post-type/portfolio.php:25
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: framework/post-type/portfolio.php:27
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: framework/post-type/portfolio.php:29
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: framework/post-type/portfolio.php:31
+msgid "Portfolio Category"
+msgstr ""
+
+#: framework/post-type/portfolio.php:64
+msgctxt "Post Type General Name"
+msgid "Portfolio"
+msgstr ""
+
+#: framework/post-type/portfolio.php:66
+msgctxt "Post Type Singular Name"
+msgid "Portfolio Item"
+msgstr ""
+
+#: framework/post-type/portfolio.php:68 framework/post-type/portfolio.php:94
+msgid "Portfolio"
+msgstr ""
+
+#: framework/post-type/portfolio.php:96
+msgid "Portfolio Description"
+msgstr ""
+
+#: framework/post-type/team.php:12
+msgctxt "Post Type General Name"
+msgid "Team"
+msgstr ""
+
+#: framework/post-type/team.php:14
+msgctxt "Post Type Singular Name"
+msgid "Team Item"
+msgstr ""
+
+#: framework/post-type/team.php:16 framework/post-type/team.php:42
+msgid "Team"
+msgstr ""
+
+#: framework/post-type/team.php:44
+msgid "Team Description"
+msgstr ""
+
+#: framework/post-type/gallery.php:9
+msgctxt "taxonomy general name"
+msgid "Gallery Category"
+msgstr ""
+
+#: framework/post-type/gallery.php:10
+msgctxt "taxonomy singular name"
+msgid "Gallery Category"
+msgstr ""
+
+#: framework/post-type/gallery.php:11
+msgid "Search Gallery Category"
+msgstr ""
+
+#: framework/post-type/gallery.php:12
+msgid "All Gallery Category"
+msgstr ""
+
+#: framework/post-type/gallery.php:13
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: framework/post-type/gallery.php:14
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: framework/post-type/gallery.php:15
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: framework/post-type/gallery.php:16
+msgid "Update Gallery Category"
+msgstr ""
+
+#: framework/post-type/gallery.php:17
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: framework/post-type/gallery.php:18
+msgid "New Gallery Category Name"
+msgstr ""
+
+#: framework/post-type/gallery.php:19
+msgid "Gallery Category"
+msgstr ""
+
+#: framework/post-type/gallery.php:36
+msgctxt "Post Type General Name"
+msgid "Gallery"
+msgstr ""
+
+#: framework/post-type/gallery.php:37
+msgctxt "Post Type Singular Name"
+msgid "Gallery Item"
+msgstr ""
+
+#: framework/post-type/gallery.php:38 framework/post-type/gallery.php:51
+msgid "Gallery"
+msgstr ""
+
+#: framework/post-type/gallery.php:52
+msgid "Gallery Description"
+msgstr ""
+
+#: framework/widgets/news-letter.php:89 framework/widgets/news-letter.php:150
+msgid "Don’t show this popup again"
+msgstr ""
+
+#: framework/widgets/news-letter.php:183
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:56
+#: framework/includes/vc_element_shortcodes/service_box.php:60
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:149
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:40
+#: framework/includes/vc_element_shortcodes/gallery.php:151
+#: framework/includes/vc_element_shortcodes/title.php:7
+#: framework/includes/vc_element_shortcodes/title.php:17
+#: framework/includes/vc_element_shortcodes/blog_grid.php:246
+msgid "Title"
+msgstr ""
+
+#: framework/widgets/news-letter.php:193
+msgid "Image on the left side"
+msgstr ""
+
+#: framework/widgets/news-letter.php:198
+msgid "Placeholder"
+msgstr ""
+
+#: framework/widgets/news-letter.php:203
+msgid "Introduction"
+msgstr ""
+
+#: framework/widgets/news-letter.php:206
+#, php-format
+msgid ""
+"Use the tag %s to place the subscription form within your personal text."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:6
+msgid "Id Section"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:9
+msgid "Please, Enter row id section."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:14
+msgid "Type"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:21
+msgid "Select type of this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:26
+msgid "Text Color"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:29
+msgid "Select color for content in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:34
+msgid "Heading Color"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:37
+msgid "Select color for all heading in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:42
+msgid "Link Color"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:45
+msgid "Select color for all link in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:50
+msgid "Link Color Hover"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:53
+msgid "Select color for all link hover in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:58
+#: framework/includes/vc_extra_params.php:286
+#: framework/includes/vc_element_shortcodes/service_box.php:27
+msgid "Text Align"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:66
+msgid "Select text align for all columns in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:70
+msgid "Text Middle"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:73
+#: framework/includes/vc_extra_params.php:82
+#: framework/includes/vc_extra_params.php:92
+#: framework/includes/vc_extra_params.php:117
+#: framework/includes/vc_extra_params.php:136
+#: framework/includes/vc_extra_params.php:169
+#: framework/includes/vc_extra_params.php:182
+#: framework/includes/vc_extra_params.php:195
+#: framework/includes/vc_extra_params.php:208
+#: framework/includes/vc_extra_params.php:221
+#: framework/includes/vc_element_shortcodes/info_box.php:62
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:87
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:99
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:111
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:123
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:63
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:80
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:113
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:124
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:182
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:194
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:206
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:65
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:95
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:107
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:119
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:158
+#: framework/includes/vc_element_shortcodes/gallery.php:41
+#: framework/includes/vc_element_shortcodes/gallery.php:70
+#: framework/includes/vc_element_shortcodes/gallery.php:80
+#: framework/includes/vc_element_shortcodes/gallery.php:94
+#: framework/includes/vc_element_shortcodes/blog_grid.php:271
+#: framework/includes/vc_element_shortcodes/blog_grid.php:281
+#: framework/includes/vc_element_shortcodes/blog_grid.php:347
+#: framework/includes/vc_element_shortcodes/blog_grid.php:359
+#: framework/includes/vc_element_shortcodes/blog_grid.php:371
+#: framework/includes/vc_element_shortcodes/blog_grid.php:383
+#: framework/includes/vc_element_shortcodes/blog_grid.php:422
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:179
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:200
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:209
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:222
+msgid "Yes, please"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:75
+msgid "Set text middle for all columns in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:79
+msgid "Content Full Width"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:84
+msgid "Set content full width of this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:89
+msgid "Same Height"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:94
+msgid "Set the same height for all column in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:99
+#: framework/includes/vc_extra_params.php:271
+msgid "Effect"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:109
+#: framework/includes/vc_extra_params.php:281
+msgid "Select effect in this column."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:114
+msgid "Enable parallax"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:119
+msgid "Enable parallax effect in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:124
+msgid "Parallax speed"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:127
+msgid "Please, Enter parallax speed in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:132
+msgid "Enable Overlay"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:138
+msgid "Enable overlay on background."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:143
+msgid "Overlay Background Color"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:155
+msgid "Video poster"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:166
+msgid "Loop"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:179
+msgid "Autoplay"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:192
+msgid "Muted"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:205
+msgid "Controls"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:218
+msgid "Show Button Play"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:231
+msgid "Video background (mp4)"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:238
+msgid "Please, Enter url video (mp4) for background in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:244
+msgid "Video background (ogv)"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:251
+msgid "Please, Enter url video (ogv) for background in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:257
+msgid "Video background (webm)"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:264
+msgid "Please, Enter url video (webm) for background in this row."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:294
+msgid "Select text align in this column."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:300
+msgid "Active tab"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:303
+msgid ""
+"Enter section number to be active on load or enter false to collapse all "
+"sections.."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:309
+#: framework/includes/vc_element_shortcodes/service_box.php:41
+msgid "Icon"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:312
+msgid "Icon class."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:318
+msgid "Background Title"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:321
+msgid "Background color of title."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:326
+msgid "Background Title Active"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:329
+msgid "Background color of title active."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:334
+msgid "Border Title"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:337
+msgid "Border color of title."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:342
+msgid "Color Title"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:345
+msgid "Color of title."
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:350
+msgid "Background Content"
+msgstr ""
+
+#: framework/includes/vc_extra_params.php:353
+msgid "Background color of Content."
+msgstr ""
+
+#: framework/headers/header-v2.php:139 framework/headers/header-v1.php:135
+msgid "Enter your search..."
+msgstr ""
+
+#: framework/templates/post-favorite.php:73
+msgid "Love this"
+msgstr ""
+
+#: framework/templates/post-favorite.php:77
+msgid "You already love this!"
+msgstr ""
+
+#: framework/templates/entry-none.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: framework/templates/entry-none.php:4
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: framework/templates/post-functions.php:12
+msgid "Read more..."
+msgstr ""
+
+#: framework/templates/post-functions.php:34
+#: framework/templates/post-functions.php:65
+msgid "By "
+msgstr ""
+
+#: framework/templates/post-functions.php:35
+msgid "Posted "
+msgstr ""
+
+#: framework/templates/post-functions.php:45
+#: framework/templates/post-functions.php:77
+msgid "0 Comment"
+msgstr ""
+
+#: framework/templates/post-functions.php:45
+#: framework/templates/post-functions.php:77
+msgid "1 Comment"
+msgstr ""
+
+#: framework/templates/post-functions.php:45
+#: framework/templates/post-functions.php:77
+msgid "% Comments "
+msgstr ""
+
+#: framework/templates/post-functions.php:172
+msgid "Pages:"
+msgstr ""
+
+#: framework/templates/post-functions.php:214
+msgid "Author"
+msgstr ""
+
+#: framework/templates/post-functions.php:235
+msgid "Sticky"
+msgstr ""
+
+#: framework/templates/post-functions.php:242
+msgid "AUTHOR"
+msgstr ""
+
+#: framework/templates/post-functions.php:245
+msgid "All stories by: "
+msgstr ""
+
+#: framework/templates/post-functions.php:261
+msgid "Share: "
+msgstr ""
+
+#: framework/shortcodes/login_form/login_form.php:14
+msgid "Login"
+msgstr ""
+
+#: framework/shortcodes/login_form/login_form.php:15
+msgid "Hello, Welcome your to account"
+msgstr ""
+
+#: framework/shortcodes/login_form/login_form.php:17
+msgid "Sign In With Facebook"
+msgstr ""
+
+#: framework/shortcodes/login_form/login_form.php:18
+msgid "Sign In With Twitter"
+msgstr ""
+
+#: framework/shortcodes/login_form/login_form.php:30
+#: framework/shortcodes/register_form/register_form.php:71
+msgid "Email Address"
+msgstr ""
+
+#: framework/shortcodes/login_form/login_form.php:31
+msgid "Password"
+msgstr ""
+
+#: framework/shortcodes/login_form/login_form.php:32
+msgid "Remember me!"
+msgstr ""
+
+#: framework/shortcodes/login_form/login_form.php:33
+msgid "LogIn"
+msgstr ""
+
+#: framework/shortcodes/blog_grid_custom/blog_grid_custom.php:153
+msgid "<i class=\"fa fa-angle-left\"></i>&nbsp; Previous"
+msgstr ""
+
+#: framework/shortcodes/blog_grid_custom/blog_grid_custom.php:154
+msgid "Next &nbsp;<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: framework/shortcodes/register_form/register_form.php:25
+msgid "Create a new account"
+msgstr ""
+
+#: framework/shortcodes/register_form/register_form.php:27
+msgid "Create your own Unicase account"
+msgstr ""
+
+#: framework/shortcodes/register_form/register_form.php:79
+msgid "SignUp"
+msgstr ""
+
+#: framework/shortcodes/register_form/register_form.php:87
+msgid "SignUp today and you'll be able to:"
+msgstr ""
+
+#: framework/shortcodes/register_form/register_form.php:91
+msgid "Speed your way through the checkout."
+msgstr ""
+
+#: framework/shortcodes/register_form/register_form.php:93
+msgid "Track your orders easily."
+msgstr ""
+
+#: framework/shortcodes/register_form/register_form.php:95
+msgid "Keep a record of all your purchases."
+msgstr ""
+
+#: framework/shortcodes/blog_grid/tpl2.php:52
+#: framework/shortcodes/blog_grid/tpl1.php:50
+#: framework/templates/blog/entry.php:68
+msgid "by "
+msgstr ""
+
+#: framework/shortcodes/portfolio_grid/portfolio_grid.php:87
+msgid "View All "
+msgstr ""
+
+#: framework/shortcodes/gallery/gallery.php:75
+msgid "All"
+msgstr ""
+
+#: framework/shortcodes/gallery/gallery.php:109
+msgid " Prev"
+msgstr ""
+
+#: framework/shortcodes/gallery/gallery.php:110
+msgid "Next"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:3
+msgid "Info Box"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:11
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:12
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:89
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:101
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:113
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:125
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:133
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:141
+#: framework/includes/vc_element_shortcodes/service_box.php:11
+#: framework/includes/vc_element_shortcodes/service_box.php:53
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:46
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:82
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:93
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:104
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:115
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:126
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:153
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:165
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:185
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:197
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:208
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:68
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:86
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:98
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:110
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:122
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:131
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:140
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:149
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:160
+#: framework/includes/vc_element_shortcodes/gallery.php:21
+#: framework/includes/vc_element_shortcodes/gallery.php:72
+#: framework/includes/vc_element_shortcodes/gallery.php:82
+#: framework/includes/vc_element_shortcodes/gallery.php:96
+#: framework/includes/vc_element_shortcodes/gallery.php:112
+#: framework/includes/vc_element_shortcodes/gallery.php:124
+#: framework/includes/vc_element_shortcodes/title.php:49
+#: framework/includes/vc_element_shortcodes/title.php:79
+#: framework/includes/vc_element_shortcodes/blog_grid.php:13
+#: framework/includes/vc_element_shortcodes/blog_grid.php:273
+#: framework/includes/vc_element_shortcodes/blog_grid.php:287
+#: framework/includes/vc_element_shortcodes/blog_grid.php:298
+#: framework/includes/vc_element_shortcodes/blog_grid.php:309
+#: framework/includes/vc_element_shortcodes/blog_grid.php:338
+#: framework/includes/vc_element_shortcodes/blog_grid.php:350
+#: framework/includes/vc_element_shortcodes/blog_grid.php:362
+#: framework/includes/vc_element_shortcodes/blog_grid.php:374
+#: framework/includes/vc_element_shortcodes/blog_grid.php:386
+#: framework/includes/vc_element_shortcodes/blog_grid.php:395
+#: framework/includes/vc_element_shortcodes/blog_grid.php:404
+#: framework/includes/vc_element_shortcodes/blog_grid.php:413
+#: framework/includes/vc_element_shortcodes/blog_grid.php:424
+msgid "Template"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:14
+msgid "Template 1 (Text on the left)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:15
+msgid "Template 2 (Header_Pic)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:16
+msgid "Template 3 (Img left, text right, only img1)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:27
+#: framework/includes/vc_element_shortcodes/info_box.php:106
+#: framework/includes/vc_element_shortcodes/info_box.php:141
+#: framework/includes/vc_element_shortcodes/info_box.php:176
+#: framework/includes/vc_element_shortcodes/service_box.php:22
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:55
+#: framework/includes/vc_element_shortcodes/blog_grid.php:22
+msgid "Select template in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:32
+msgid "Heading 1"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:35
+#: framework/includes/vc_element_shortcodes/info_box.php:44
+#: framework/includes/vc_element_shortcodes/info_box.php:54
+#: framework/includes/vc_element_shortcodes/info_box.php:64
+#: framework/includes/vc_element_shortcodes/info_box.php:105
+msgid "Content & image"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:36
+#: framework/includes/vc_element_shortcodes/info_box.php:115
+#: framework/includes/vc_element_shortcodes/info_box.php:150
+msgid "Please, Enter text of heading."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:45
+#: framework/includes/vc_element_shortcodes/service_box.php:71
+msgid "Please, enter description in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:50
+#: framework/includes/vc_element_shortcodes/info_box.php:120
+#: framework/includes/vc_element_shortcodes/info_box.php:155
+#: framework/includes/vc_element_shortcodes/service_box.php:50
+#: framework/includes/vc_element_shortcodes/title.php:76
+msgid "Image"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:55
+#: framework/includes/vc_element_shortcodes/info_box.php:124
+#: framework/includes/vc_element_shortcodes/info_box.php:159
+#: framework/includes/vc_element_shortcodes/service_box.php:54
+#: framework/includes/vc_element_shortcodes/title.php:80
+msgid "Select image in this element"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:59
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:77
+#: framework/includes/vc_element_shortcodes/gallery.php:38
+#: framework/includes/vc_element_shortcodes/blog_grid.php:278
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:176
+msgid "Crop image"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:65
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:83
+#: framework/includes/vc_element_shortcodes/gallery.php:43
+#: framework/includes/vc_element_shortcodes/blog_grid.php:288
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:181
+msgid "Crop or not crop image on your Post."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:94
+#: framework/includes/vc_element_shortcodes/info_box.php:129
+#: framework/includes/vc_element_shortcodes/info_box.php:164
+msgid "Align image"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:97
+#: framework/includes/vc_element_shortcodes/info_box.php:132
+#: framework/includes/vc_element_shortcodes/info_box.php:167
+msgid "Center Center"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:98
+#: framework/includes/vc_element_shortcodes/info_box.php:133
+#: framework/includes/vc_element_shortcodes/info_box.php:168
+msgid "Top Left"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:99
+#: framework/includes/vc_element_shortcodes/info_box.php:134
+#: framework/includes/vc_element_shortcodes/info_box.php:169
+msgid "Top Right"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:100
+#: framework/includes/vc_element_shortcodes/info_box.php:135
+#: framework/includes/vc_element_shortcodes/info_box.php:170
+msgid "Top Center"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:101
+#: framework/includes/vc_element_shortcodes/info_box.php:136
+#: framework/includes/vc_element_shortcodes/info_box.php:171
+msgid "Bottom Left"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:102
+#: framework/includes/vc_element_shortcodes/info_box.php:137
+#: framework/includes/vc_element_shortcodes/info_box.php:172
+msgid "Bottom Right"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:103
+#: framework/includes/vc_element_shortcodes/info_box.php:138
+#: framework/includes/vc_element_shortcodes/info_box.php:173
+msgid "Bottom Center"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:111
+msgid "Heading 2:"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:114
+#: framework/includes/vc_element_shortcodes/info_box.php:140
+msgid "Image 2"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:146
+msgid "Heading 3"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:149
+#: framework/includes/vc_element_shortcodes/info_box.php:175
+msgid "Image 3"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:181
+msgid "Link Text"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:185
+msgid "Please, Enter read more text in this element. EX: Shop Now"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:190
+#: framework/includes/vc_element_shortcodes/service_box.php:76
+msgid "Extra Link"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:193
+#: framework/includes/vc_element_shortcodes/info_box.php:210
+#: framework/includes/vc_element_shortcodes/service_box.php:79
+msgid "Please, enter extra link in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:198
+msgid "Promotion Link Text"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:202
+msgid "Please, Enter read more text in this element. EX: Promotion"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:207
+msgid "Extra Promotion Link"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:215
+#: framework/includes/vc_element_shortcodes/logo.php:59
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:76
+#: framework/includes/vc_element_shortcodes/service_box.php:84
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:171
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:12
+#: framework/includes/vc_element_shortcodes/gallery.php:173
+#: framework/includes/vc_element_shortcodes/title.php:108
+#: framework/includes/vc_element_shortcodes/blog_grid.php:174
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:325
+msgid "Extra Class"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/info_box.php:218
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:79
+#: framework/includes/vc_element_shortcodes/service_box.php:87
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:174
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:15
+#: framework/includes/vc_element_shortcodes/gallery.php:176
+#: framework/includes/vc_element_shortcodes/blog_grid.php:177
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:328
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:7
+msgid "Insert Logo"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:16
+#: framework/includes/vc_element_shortcodes/logo.php:24
+#: framework/includes/vc_element_shortcodes/title.php:63
+#: framework/includes/vc_element_shortcodes/title.php:71
+msgid "Align"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:19
+#: framework/includes/vc_element_shortcodes/service_box.php:30
+#: framework/includes/vc_element_shortcodes/title.php:66
+#: framework/includes/vc_element_shortcodes/blog_grid.php:336
+msgid "Left"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:20
+#: framework/includes/vc_element_shortcodes/service_box.php:31
+#: framework/includes/vc_element_shortcodes/title.php:67
+#: framework/includes/vc_element_shortcodes/blog_grid.php:334
+msgid "Right"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:21
+#: framework/includes/vc_element_shortcodes/service_box.php:32
+#: framework/includes/vc_element_shortcodes/title.php:68
+#: framework/includes/vc_element_shortcodes/blog_grid.php:335
+msgid "Center"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:32
+msgid "Image Logo"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:38
+msgid "Insert logo image."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:44
+#: framework/includes/vc_element_shortcodes/logo.php:54
+#: framework/includes/vc_element_shortcodes/title.php:85
+#: framework/includes/vc_element_shortcodes/title.php:95
+#: framework/includes/vc_element_shortcodes/blog_grid.php:159
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:310
+msgid "Animation"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:48
+#: framework/includes/vc_element_shortcodes/title.php:89
+msgid "Top to bottom"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:49
+#: framework/includes/vc_element_shortcodes/title.php:90
+msgid "Bottom to top"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:50
+#: framework/includes/vc_element_shortcodes/title.php:91
+msgid "Left to right"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:51
+#: framework/includes/vc_element_shortcodes/title.php:92
+msgid "Right to left"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:52
+#: framework/includes/vc_element_shortcodes/title.php:93
+msgid "Appear from center"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/logo.php:62
+#: framework/includes/vc_element_shortcodes/title.php:111
+msgid "Extra Class."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:15
+msgid "Template 1( Thumbnail on the left )"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:16
+msgid "Template 2( Thumbnail on the left - Style 2)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:17
+msgid "Template 3(All thumdnail)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:20
+#: framework/includes/vc_element_shortcodes/title.php:58
+msgid "Select template for title."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:25
+#: framework/includes/vc_element_shortcodes/blog_grid.php:213
+msgid "Testimonial Categories"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:29
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:30
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:41
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:23
+#: framework/includes/vc_element_shortcodes/gallery.php:16
+#: framework/includes/vc_element_shortcodes/blog_grid.php:191
+#: framework/includes/vc_element_shortcodes/blog_grid.php:204
+#: framework/includes/vc_element_shortcodes/blog_grid.php:217
+#: framework/includes/vc_element_shortcodes/blog_grid.php:230
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:46
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:58
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:71
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:84
+msgid ""
+"Note: By default, all your projects will be displayed. <br>If you want to "
+"narrow output, select category(s) above. Only selected categories will be "
+"displayed."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:33
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:70
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:28
+#: framework/includes/vc_element_shortcodes/gallery.php:31
+#: framework/includes/vc_element_shortcodes/blog_grid.php:234
+msgid "Count"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:36
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:73
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:32
+#: framework/includes/vc_element_shortcodes/gallery.php:34
+#: framework/includes/vc_element_shortcodes/blog_grid.php:238
+msgid ""
+"The number of posts to display on each page. Set to \"-1\" for display all "
+"posts on the page."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:41
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:133
+#: framework/includes/vc_element_shortcodes/gallery.php:131
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:89
+msgid "Columns"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:44
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:137
+#: framework/includes/vc_element_shortcodes/gallery.php:135
+#: framework/includes/vc_element_shortcodes/blog_grid.php:82
+msgid "3 Columns"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:45
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:138
+#: framework/includes/vc_element_shortcodes/gallery.php:136
+#: framework/includes/vc_element_shortcodes/blog_grid.php:83
+msgid "2 Columns"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:46
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:139
+#: framework/includes/vc_element_shortcodes/blog_grid.php:84
+msgid "1 Column"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:48
+msgid "Select columns in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:52
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:145
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:36
+#: framework/includes/vc_element_shortcodes/gallery.php:147
+#: framework/includes/vc_element_shortcodes/blog_grid.php:242
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:254
+msgid "Order by"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:55
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:67
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:148
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:161
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:39
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:52
+#: framework/includes/vc_element_shortcodes/gallery.php:150
+#: framework/includes/vc_element_shortcodes/gallery.php:163
+#: framework/includes/vc_element_shortcodes/blog_grid.php:245
+#: framework/includes/vc_element_shortcodes/blog_grid.php:258
+msgid "None"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:57
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:150
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:41
+#: framework/includes/vc_element_shortcodes/gallery.php:152
+#: framework/includes/vc_element_shortcodes/blog_grid.php:247
+#: framework/templates/portfolio/single/entry.php:74
+#: framework/templates/portfolio/single/entry.php:103
+msgid "Date"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:58
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:151
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:42
+#: framework/includes/vc_element_shortcodes/gallery.php:153
+#: framework/includes/vc_element_shortcodes/blog_grid.php:248
+msgid "ID"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:60
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:154
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:45
+#: framework/includes/vc_element_shortcodes/gallery.php:155
+#: framework/includes/vc_element_shortcodes/blog_grid.php:251
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:262
+msgid "Order by (\"none\", \"title\", \"date\", \"ID\")."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:64
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:158
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:49
+#: framework/includes/vc_element_shortcodes/gallery.php:160
+#: framework/includes/vc_element_shortcodes/blog_grid.php:255
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:266
+msgid "Order"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:68
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:162
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:53
+#: framework/includes/vc_element_shortcodes/gallery.php:164
+#: framework/includes/vc_element_shortcodes/blog_grid.php:259
+msgid "ASC"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:69
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:163
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:54
+#: framework/includes/vc_element_shortcodes/gallery.php:165
+#: framework/includes/vc_element_shortcodes/blog_grid.php:260
+msgid "DESC"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:71
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:166
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:57
+#: framework/includes/vc_element_shortcodes/gallery.php:167
+#: framework/includes/vc_element_shortcodes/blog_grid.php:263
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:273
+msgid "Order (\"None\", \"Asc\", \"Desc\")."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:84
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:62
+#: framework/includes/vc_element_shortcodes/blog_grid.php:268
+msgid "Show Image"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:91
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:69
+#: framework/includes/vc_element_shortcodes/blog_grid.php:274
+msgid "Show or not image of post in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:96
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:179
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:92
+#: framework/includes/vc_element_shortcodes/gallery.php:77
+#: framework/includes/vc_element_shortcodes/blog_grid.php:344
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:197
+msgid "Show Title"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:103
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:186
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:99
+#: framework/includes/vc_element_shortcodes/blog_grid.php:351
+msgid "Show or not title of post in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:108
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:116
+#: framework/includes/vc_element_shortcodes/blog_grid.php:380
+msgid "Show Excerpt"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:115
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:123
+#: framework/includes/vc_element_shortcodes/blog_grid.php:387
+msgid "Show or not excerpt of post in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:120
+msgid "Show Patient"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:126
+msgid "Show or not patient name in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:130
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:128
+#: framework/includes/vc_element_shortcodes/blog_grid.php:392
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:232
+msgid "Excerpt Length"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:134
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:239
+msgid ""
+"The length of the excerpt, number of words to display. Set -1 show all words "
+"of excerpt."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:138
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:137
+#: framework/includes/vc_element_shortcodes/blog_grid.php:401
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:243
+msgid "Excerpt More"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/testimonial_slider.php:142
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:250
+msgid "Please enter excerpt more for blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:3
+msgid "Service Box"
+msgstr ""
+
+#. esc_html__("Title Underline style without diamond",'medicare') => "tpl2",
+#: framework/includes/vc_element_shortcodes/service_box.php:14
+#: framework/includes/vc_element_shortcodes/title.php:55
+msgid "Default"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:15
+msgid "Template 1 (Border top)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:16
+msgid "Template 2 (Icon on the left)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:17
+msgid "Template 3 (Count Up)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:18
+msgid "Template 4 (Icon on Top)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:19
+msgid "Template 5 (Img on left)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:20
+msgid "Template 6 (Img on Top - Style 2)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:35
+msgid "Text Align in Service box"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:45
+msgid ""
+"Please, enter class icon in this element.\n"
+" Empty this field if you user an image"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/service_box.php:63
+msgid "Please, enter title in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:13
+#: framework/includes/vc_element_shortcodes/blog_grid.php:28
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:18
+msgid "Post Type"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:19
+#: framework/includes/vc_element_shortcodes/blog_grid.php:38
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:26
+msgid "Select post type for blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:24
+msgid "Portfolio Categories"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:35
+#: framework/includes/vc_element_shortcodes/gallery.php:14
+msgid "Gallery Categories"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:49
+msgid "Template 1 ( MixItUp )"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:50
+msgid "Template 2 (  )"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:51
+msgid "Template 3 ( MitItUp Masonry )"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:60
+msgid "Show Filter"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:66
+msgid "Show or not show filter in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:87
+#: framework/includes/vc_element_shortcodes/gallery.php:47
+#: framework/includes/vc_element_shortcodes/blog_grid.php:292
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:185
+msgid "Width image"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:94
+msgid "Enter the width of image. Default: 370."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:98
+#: framework/includes/vc_element_shortcodes/gallery.php:57
+#: framework/includes/vc_element_shortcodes/blog_grid.php:303
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:191
+msgid "Height image"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:105
+msgid "Enter the height of image. Default: 330."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:110
+#: framework/includes/vc_element_shortcodes/gallery.php:105
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:277
+msgid "Show Pagination"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:116
+msgid "Show or not show pagination in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:121
+msgid "No Padding"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:128
+msgid "No padding in each items"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:136
+#: framework/includes/vc_element_shortcodes/gallery.php:134
+#: framework/includes/vc_element_shortcodes/blog_grid.php:81
+msgid "4 Columns"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:141
+#: framework/includes/vc_element_shortcodes/gallery.php:143
+msgid "Select columns display in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:191
+msgid "Show Category"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:198
+msgid "Show or not category of post in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:203
+msgid "Show View Now"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/portfolio_grid.php:209
+msgid "Show or not View Now of post in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:20
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:68
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:81
+#: framework/templates/portfolio/single/entry.php:109
+msgid "Categories"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:22
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:31
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:44
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:56
+#: framework/includes/vc_element_shortcodes/blog_grid.php:189
+#: framework/includes/vc_element_shortcodes/blog_grid.php:202
+#: framework/includes/vc_element_shortcodes/blog_grid.php:215
+#: framework/includes/vc_element_shortcodes/blog_grid.php:228
+#: framework/includes/vc_element_shortcodes/blog_grid.php:237
+#: framework/includes/vc_element_shortcodes/blog_grid.php:250
+#: framework/includes/vc_element_shortcodes/blog_grid.php:262
+msgid "Build Query"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:73
+msgid "Image Size"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:76
+msgid "Full"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:77
+msgid "Large"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:78
+msgid "Large Hard Crop"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:79
+msgid "Medium"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:80
+msgid "Medium Hard Crop"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:81
+msgid "Blog Grid"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:82
+msgid "Blog Grid Medium (270x200)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:83
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:87
+msgid "Select image size of post in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:104
+#: framework/includes/vc_element_shortcodes/blog_grid.php:356
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:206
+msgid "Show Info"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:111
+#: framework/includes/vc_element_shortcodes/blog_grid.php:363
+msgid "Show or not info of post in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:132
+#: framework/includes/vc_element_shortcodes/blog_grid.php:396
+msgid "Please, Enter excerpt lenght in this element. EX: 20"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:141
+#: framework/includes/vc_element_shortcodes/blog_grid.php:405
+msgid "Please, Enter excerpt more in this element. EX: ..."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:146
+#: framework/includes/vc_element_shortcodes/blog_grid.php:410
+msgid "Read More Text"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:150
+#: framework/includes/vc_element_shortcodes/blog_grid.php:414
+msgid "Please, Enter read more text in this element. EX: Read more"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:155
+#: framework/includes/vc_element_shortcodes/blog_grid.php:419
+msgid "New line for read more text?"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_carousel.php:161
+#: framework/includes/vc_element_shortcodes/blog_grid.php:425
+msgid "Show read more text as new line"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:27
+msgid "Select template for gallery."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:49
+msgid "Enter the width of image. Default: 373."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:59
+msgid "Enter the height of image. Default: 332."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:67
+msgid "Show Image Popup Button"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:73
+msgid "Show or hide Popup Button of post on your blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:87
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:202
+msgid "Show or hide title of post on your blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:91
+msgid "Show author"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:101
+msgid "Show or hide author of post on your blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:113
+#: framework/includes/vc_element_shortcodes/blog_grid.php:109
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:284
+msgid "Show or hide pagination of post on your blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:117
+#: framework/includes/vc_element_shortcodes/blog_grid.php:137
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:288
+msgid "Pagination Position"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:125
+#: framework/includes/vc_element_shortcodes/blog_grid.php:144
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:295
+msgid "Select Pagination Position."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:182
+msgid "Load more"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/gallery.php:185
+msgid ""
+"Enter View all name, default: load more, leave blank for hidden this button"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/title.php:20
+#: framework/includes/vc_element_shortcodes/title.php:29
+msgid "Content."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/title.php:26
+msgid "Sub Title"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/title.php:34
+msgid "Font Size"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/title.php:37
+msgid "Font Size."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/title.php:41
+#: framework/includes/vc_element_shortcodes/title.php:44
+msgid "Color"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/title.php:100
+msgid "Link ID"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/title.php:103
+msgid "Set ID for this Title"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:16
+msgid "Template 1"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:17
+msgid "Template 2"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:18
+msgid "Template 3"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:19
+msgid "Template 4(Template 3 & no bigItem)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:20
+msgid "Template 5(1 Item, Image right)"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:43
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:102
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:134
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:149
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:163
+msgid "Style"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:54
+#: framework/includes/vc_element_shortcodes/blog_grid.php:70
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:113
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:144
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:158
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:172
+msgid "Select style for blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:59
+msgid "Services Style"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:76
+msgid "Source"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:79
+msgid "6 Columnss"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:80
+msgid "6 Columns"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:87
+msgid "Select columns in this elment. "
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:102
+msgid "View more "
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:125
+msgid "Title load"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:133
+msgid "please enter the text from the keyboard."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:148
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:299
+msgid "Object Animation"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:154
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:305
+msgid "Select object animation"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:169
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:320
+msgid "Box Animation"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:187
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:51
+msgid "Services Categories"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:200
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:39
+msgid "Blog Categories"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:226
+msgid "Doctor Categories"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:299
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:187
+msgid "Enter the width of image. Default: 300."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:310
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:193
+msgid "Enter the height of image. Default: 200."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:331
+msgid "Text align"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:368
+msgid "Show extended information"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid.php:375
+msgid "Show or not extended information in this element."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:7
+msgid "Blog grid view"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:31
+msgid "Post Count"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:34
+msgid "Please, enter number of post per page for blog. Show all: -1."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:97
+msgid "Select columns for blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:118
+msgid "Deviation Text Align"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:129
+msgid "Select deviation style for blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:215
+msgid "Show or hide info of post on your blog."
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:219
+msgid "Show Description"
+msgstr ""
+
+#: framework/includes/vc_element_shortcodes/blog_grid_custom.php:228
+msgid "Show or hide description of post on your blog."
+msgstr ""
+
+#: framework/templates/services/porfolio.php:58
+#: framework/templates/portfolio/porfolio.php:55
+msgid "View Now"
+msgstr ""
+
+#: framework/templates/portfolio/single/entry.php:72
+msgid "Create By"
+msgstr ""
+
+#: framework/templates/portfolio/single/entry.php:73
+msgid "Participants"
+msgstr ""
+
+#: framework/templates/portfolio/single/entry.php:103
+msgid "Client"
+msgstr ""
+
+#: framework/templates/portfolio/single/entry.php:103
+msgid "Location"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Medicare is a super clean and modern fashion WordPress theme that offers a "
+"huge suite of theme options including unlimited colors, typography, "
+"shortcodes, and custom widgets so your website will look amazing. This theme "
+"offers 9 post formats including audio, video, and gallery slideshows so "
+"there’s lots of variety. The fully packed options panel is the control "
+"center for all your theme’s customization, and it includes layout styling, "
+"social media, navigation styling, typography options, slideshow controls and "
+"more."
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "http://jwsthemes.com"
+msgstr ""
+
+#. Author of the theme
+msgid "jwsthemes"
+msgstr ""

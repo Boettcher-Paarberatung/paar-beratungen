@@ -1,0 +1,197 @@
+.navbar-fixed-top
+	z-index: 9
+
+.navbar-contact
+	background-color: #d95e61
+
+	@media #{$breakpoint-desktop}
+		height: 60px
+
+	@media #{$breakpoint-tablet}
+		height: 60px
+
+	@media #{$breakpoint-mobile}
+		height: 0
+		min-height: 0
+
+	.navbar-brand
+		height: 60px
+		@include flexbox
+		@include align-items(center)
+		letter-spacing: 2px
+
+		@media #{$breakpoint-mobile}
+			display: none
+
+		&:hover
+			color: white
+
+	ul
+		height: 60px
+		@include flexbox
+		@include align-items(center)
+
+		li
+			color: white
+
+			&:nth-of-type(2)
+				padding-left: 20px
+
+			a
+				display: inline-block
+				margin: 0
+				padding: 0
+				color: white
+				font-weight: bold
+				font-size: 16px
+
+				&:hover, &:focus
+					background-color: inherit
+					text-decoration: underline
+
+				&:before
+					font-family: FontAwesome
+					padding: 5px
+
+	.appointment
+		padding: 4px 5px
+
+		a
+			background-color: $highlight-color
+
+			&:before
+				content: '\f274'
+
+		@media #{$breakpoint-mobile}
+			position: fixed
+			bottom: 120px
+			right: 5px
+			padding: 8px
+
+			a
+				height: 50px
+				width: 50px
+				border-radius: 50%
+				font-size: 0
+				color: $main-font-color
+				background-color: white
+				padding: 10px 5px 10px 9px
+				@include box-shadow
+
+				&:before
+					font-size: 24px
+
+	.phone
+		a
+			&:before
+				content: '\f095'
+
+		@media #{$breakpoint-mobile, $breakpoint-tablet}
+			position: fixed
+			bottom: 60px
+			right: 5px
+			padding: 8px
+
+			a
+				height: 50px
+				width: 50px
+				border-radius: 50%
+				color: $main-font-color
+				background-color: white
+				padding: 15px 5px 10px 11px
+				@include box-shadow
+
+				&:before
+					font-size: 24px
+
+				span
+					display: none
+
+.navbar-menu
+	min-height: 50px
+
+	@media #{$breakpoint-desktop}
+		top: 60px
+
+	@media #{$breakpoint-tablet}
+		top: 60px
+
+	@media #{$breakpoint-mobile}
+		top: 0
+
+	button
+		margin: 8px 10px 8px 0
+
+	ul
+		list-style: none
+		margin-bottom: 0
+		padding-left: 0
+		width: 100%
+
+		li
+			float: left
+			position: relative
+			display: block
+			margin: 0 0
+
+			@media #{$breakpoint-desktop}
+				width: auto
+
+			@media #{$breakpoint-tablet}
+				width: auto
+
+			@media #{$breakpoint-mobile}
+				width: 100%
+
+			a
+				padding: 14px 15px
+				line-height: 20px
+				display: block
+				color: black
+
+				&:hover
+					color: #d95e61!important
+					text-decoration: none
+
+				@media #{$breakpoint-desktop}
+					padding: 19px 15px
+					line-height: 20px
+
+				@media #{$breakpoint-tablet}
+					padding: 14px 5px
+
+		.dropdown
+			float: right
+
+			.dropdown-menu
+				a
+					&:hover
+						background-color: white
+
+	.wpml-ls-item
+		float: right
+
+.navbar-brand
+	display: inline-block
+	margin: 0
+	color: white
+	font-family: 'Great Vibes', cursive
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.25)
+	height: 60px
+
+	@media #{$breakpoint-desktop}
+		padding: 15px 5px
+		line-height: 30px
+		font-size: 26px
+
+	@media #{$breakpoint-tablet}
+		padding: 15px 5px 15px 30px
+		font-size: 22px
+
+	@media #{$breakpoint-mobile}
+		padding: 6px 5px 0 10px
+		position: absolute
+		top: 10px
+		left: 5px
+		height: 40px
+		font-size: 20px

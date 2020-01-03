@@ -1,0 +1,88 @@
+//
+// VARIABLES
+//
+
+// COLORS
+$main-font-color: #333
+$highlight-color: #d95e61
+$secondary-highlight-color: #27abb7
+$light-grey: #d3d3d3
+
+// FONTS
+$main-font: 'Open Sans', sans-serif
+$highlight-font: 'Ovo', serif
+
+// SIZES
+$small-font-size: 12px
+$medium-font-size: 16px
+$large-font-size: 20px
+
+// BREAKPOINTS
+$breakpoint-mobile: " screen and (max-width: 767px)"
+$breakpoint-tablet: " screen and (min-width: 768px) and (max-width: 991px)"
+$breakpoint-desktop: " screen and (min-width: 992px)"
+
+// MIXINS
+@mixin box-shadow()
+	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.5)
+	-moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.5)
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.5)
+
+@mixin transition()
+	-webkit-transition: all 0.1s ease 0s
+	-moz-transition: all 0.1s ease 0s
+	-ms-transition: all 0.1s ease 0s
+	-o-transition: all 0.1s ease 0s
+	transition: all 0.1s ease 0s
+
+@mixin flexbox()
+	display: -webkit-box
+	display: -moz-box
+	display: -ms-flexbox
+	display: -webkit-flex
+	display: flex
+
+@mixin justify-content($justify)
+	-webkit-justify-content: $justify
+	-moz-justify-content: $justify
+	-ms-justify-content: $justify
+	justify-content: $justify
+	-ms-flex-pack: $justify
+
+@mixin align-items($align)
+	-webkit-align-items: $align
+	-moz-align-items: $align
+	-ms-align-items: $align
+	align-items: $align
+
+@mixin align-self($align)
+	-webkit-align-self: $align
+	-moz-align-self: $align
+	-ms-align-self: $align
+	align-self: $align
+
+@mixin user-select($select)
+	-webkit-user-select: $select
+	-moz-user-select: $select
+	-ms-user-select: $select
+	-o-user-select: $select
+	user-select: $select
+
+//
+// IMPORTS
+//
+@import 'modules/blog-card'
+@import 'modules/booking'
+@import 'modules/breadcrumbs'
+@import 'modules/button'
+@import 'modules/container'
+@import 'modules/footer'
+@import 'modules/forms'
+@import 'modules/navigation'
+@import 'modules/nav-tabs'
+@import 'modules/pagination'
+@import 'modules/typo'
+@import 'plugins/google-reviews.css'
+@import 'templates/article'
+@import 'templates/general'
+@import 'templates/home'

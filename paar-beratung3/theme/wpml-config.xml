@@ -1,0 +1,7 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_mentalpress">
+			<key name="charset_setting" />
+		</key>
+	</admin-texts>
+</wpml-config>
