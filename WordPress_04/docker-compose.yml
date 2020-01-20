@@ -17,7 +17,7 @@ services:
       MYSQL_USER: $DB_USER
       MYSQL_PASSWORD: $DB_PASSWORD
     ports:
-      - "3310:3306"
+      - "3311:3306"
 
   wp:
     container_name: $WP_CONTAINER
@@ -32,8 +32,6 @@ services:
       - ./custom_plugins/google-reviews-business:/var/www/html/wp-content/plugins/google-reviews-business:rw
       - ./custom_plugins/latepoint:/var/www/html/wp-content/plugins/latepoint:rw
       - ./custom_plugins/latepoint-google-calendar:/var/www/html/wp-content/plugins/latepoint-google-calendar:rw
-      - ./custom_plugins/sitepress-multilingual-cms:/var/www/html/wp-content/plugins/sitepress-multilingual-cms:rw
-      - ./custom_plugins/wpml-string-translation:/var/www/html/wp-content/plugins/wpml-string-translation:rw
       - ./uploads:/var/www/html/wp-content/uploads:rw
       - ./www/${VIRTUAL_HOST}/wp_content:/var/www/html/wp-content:rw
       - ./xcustom.ini:/usr/local/etc/php/conf.d/xcustom.ini:rw
@@ -43,9 +41,9 @@ services:
       WORDPRESS_DB_USER: $DB_USER
       WORDPRESS_DB_PASSWORD: $DB_PASSWORD
       WORDPRESS_TABLE_PREFIX: $WP_TABLE_PREFIX
-      VIRTUAL_HOST: $VIRTUAL_HOST,$VIRTUAL_HOST2
+      VIRTUAL_HOST: $VIRTUAL_HOST
       VIRTUAL_PORT: $VIRTUAL_PORT
-      LETSENCRYPT_HOST: $VIRTUAL_HOST,$VIRTUAL_HOST2
+      LETSENCRYPT_HOST: $VIRTUAL_HOST
       LETSENCRYPT_EMAIL: $LETSENCRYPT_EMAIL
       LETSENCRYPT_TEST: $LETSENCRYPT_TEST
 
