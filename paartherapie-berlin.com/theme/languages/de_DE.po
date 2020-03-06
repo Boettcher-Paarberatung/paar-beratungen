@@ -1,0 +1,781 @@
+# Copyright (C) 2015 ProteusThemes 
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: MentalPress WP Theme 1.4.0\n"
+"Report-Msgid-Bugs-To: http://support.proteusthemes.com/\n"
+"POT-Creation-Date: 2015-04-01 12:15:35+00:00\n"
+"PO-Revision-Date: 2015-11-29 16:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:23
+msgid "Looks Like Something Went Wrong!"
+msgstr "Sieht aus, als wäre etwas schief gelaufen!"
+
+#: 404.php:24
+msgid "The page you were looking for is not here."
+msgstr "Die gesuchte Seite kann nicht gefunden werden."
+
+#. translators: the first %s for line break, the second and third %s for link
+#. to home page wrap
+#: 404.php:30
+msgid "%s Go %s Home %s or try to search"
+msgstr "%s Gehen Sie zur %s Startseite %s oder nutzen Sie die Suche"
+
+#: comments.php:21
+msgid "Comment Navigation"
+msgstr "Kommentar Navigation"
+
+#: comments.php:22
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:23
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:32 comments.php:92
+msgid "Comments for this post are closed."
+msgstr "Kommentare sind in diesem Beitrag geschlossen."
+
+#: comments.php:43
+msgid "Write a Comment"
+msgstr "Schreiben Sie einen Kommentar"
+
+#: comments.php:55
+msgid "First and Last name"
+msgstr "Vor- und Nachname"
+
+#: comments.php:61
+msgid "E-mail Address"
+msgstr "E-Mail Adresse"
+
+#: comments.php:67
+msgid "Website"
+msgstr "Webseite"
+
+#: comments.php:72
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: header.php:71
+msgid "MENU"
+msgstr "Menü"
+
+#: inc/custom-comments.php:34
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/custom-comments.php:38
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wird geprüft."
+
+#: inc/customizer/class-pt-customize-base.php:700
+#, fuzzy
+msgid "Header icons"
+msgstr "Header Textfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:701
+msgid "Icons in \"Icon Box\" widget"
+msgstr ""
+
+#: inc/customizer/class-pt-customize-base.php:1019
+#, fuzzy
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: inc/customizer/class-pt-customize-base.php:1020
+msgid ""
+"This field is obsolete. The existing code was migrated to the \"Additional "
+"CSS\" field, that can be found in the root of the customizer. This new "
+"\"Additional CSS\" field is a WordPress core field and was introduced in WP "
+"version 4.7."
+msgstr ""
+
+#: inc/customizer/class-pt-customize-base.php:1076
+msgid "Google maps API key"
+msgstr ""
+
+#: inc/customizer/class-pt-customize-base.php:1077
+msgid ""
+"Input the Google maps API key in order for maps to start working. %sGet your "
+"API key%s."
+msgstr ""
+
+#: inc/filters.php:309
+msgid "After import setup ended!"
+msgstr ""
+
+#: inc/filters.php:320
+msgid ""
+"Please try to manually import the demo data. Here are instructions on how to "
+"do that: %sDocumentation: Import XML File%s"
+msgstr ""
+
+#: inc/filters.php:358
+#, fuzzy
+msgid "ProteusThemes Widgets"
+msgstr "ProteusThemes"
+
+#. translators: %s represents a number
+#: inc/helpers.php:19
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Kommentar"
+msgstr[1] "%s Kommentare"
+
+#: index.php:44 single.php:42
+msgid "By"
+msgstr "Von"
+
+#: index.php:49 search.php:33
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: index.php:52 search.php:36 single.php:50
+msgid "Link to this post"
+msgstr "Link zu diesem Beitrag"
+
+#: index.php:61 search.php:45 single.php:72
+msgid "Sorry, no results found."
+msgstr "Entschuldigung, es wurden keine Ergebnisse gefunden."
+
+#: part-main-menu.php:7
+msgid "NAVIGATION"
+msgstr "NAVIGATION"
+
+#: part-main-title.php:23
+msgid "Search Results For"
+msgstr "Suchergebnisse für"
+
+#: part-main-title.php:25
+msgid "Error 404"
+msgstr "Fehler 404"
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: searchform.php:12
+msgid "Search ..."
+msgstr "Suche …"
+
+#. translators: after that comes pagination like 1, 2, 3 ... 10
+#: single.php:56
+msgid "Pages:"
+msgstr "Seiten:"
+
+#. Theme Name of the plugin/theme
+msgid "MentalPress WP Theme"
+msgstr "MentalPress WP Theme"
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.proteusthemes.com/mentalpress/"
+msgstr "http://demo.spswebservices.de/psychologie"
+
+#. Description of the plugin/theme
+msgid "MentalPress WordPress Theme."
+msgstr "MentalPress WordPress Theme."
+
+#. Author of the plugin/theme
+msgid "ProteusThemes"
+msgstr "ProteusThemes"
+
+#. Author URI of the plugin/theme
+msgid "http://www.proteusthemes.com/"
+msgstr "http://www.proteusthemes.com/"
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Layer/Revolution Slider"
+msgstr "Startseite mit Layer/Revolution Slider"
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Slider"
+msgstr "Startseite mit Slider"
+
+#: comments.php:81
+msgctxt "noun"
+msgid "Your comment"
+msgstr "Ihr Kommentar"
+
+#: functions.php:101
+msgctxt "backend"
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: functions.php:102
+msgctxt "backend"
+msgid "Top Bar Menu"
+msgstr "Top Bar Menü"
+
+#: inc/customizer/class-pt-customize-base.php:535
+msgctxt "backend"
+msgid "[PT] Theme Options"
+msgstr "[PT] Theme Optionen"
+
+#: inc/customizer/class-pt-customize-base.php:536
+msgctxt "backend"
+msgid "All MentalPress theme specific settings."
+msgstr "Alle MentalPress theme-spezifischen Einstellungen."
+
+#: inc/customizer/class-pt-customize-base.php:544
+msgctxt "backend"
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/class-pt-customize-base.php:545
+#, fuzzy
+msgctxt "backend"
+msgid "Logo settings for the MentalPress theme."
+msgstr "Logo Einstellungen für das LegalPress theme."
+
+#: inc/customizer/class-pt-customize-base.php:552
+msgctxt "backend"
+msgid "Logo &amp; Favicon"
+msgstr ""
+
+#: inc/customizer/class-pt-customize-base.php:553
+#, fuzzy
+msgctxt "backend"
+msgid "Logo &amp; Favicon for the MentalPress theme."
+msgstr "Logo &amp; Favicon für das LegalPress Theme."
+
+#: inc/customizer/class-pt-customize-base.php:560 inc/theme-sidebars.php:56
+msgctxt "backend"
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/class-pt-customize-base.php:561
+msgctxt "backend"
+msgid "All layout and appearance settings for the header."
+msgstr "Alle Layout- und Ansichtseinstellungen für den Header."
+
+#: inc/customizer/class-pt-customize-base.php:567
+msgctxt "backend"
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer/class-pt-customize-base.php:568
+msgctxt "backend"
+msgid "Navigation for the MentalPress theme."
+msgstr "Navigation für das MentalPress Theme."
+
+#: inc/customizer/class-pt-customize-base.php:574
+msgctxt "backend"
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/class-pt-customize-base.php:580
+msgctxt "backend"
+msgid "Theme Colors"
+msgstr "Theme Farben"
+
+#: inc/customizer/class-pt-customize-base.php:586
+msgctxt "backend"
+msgid "Latest Posts"
+msgstr "Letzte Beiträge"
+
+#: inc/customizer/class-pt-customize-base.php:587
+msgctxt "backend"
+msgid "Latest posts for the MentalPress theme."
+msgstr "Letzte Beiträge für das MentalPress Theme."
+
+#: inc/customizer/class-pt-customize-base.php:594
+msgctxt "backend"
+msgid "Shop"
+msgstr ""
+
+#: inc/customizer/class-pt-customize-base.php:601 inc/theme-sidebars.php:71
+msgctxt "backend"
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/class-pt-customize-base.php:602
+msgctxt "backend"
+msgid "All layout and appearance settings for the footer."
+msgstr "Alle Layout- und Ansichtseinstellungen für den Footer."
+
+#: inc/customizer/class-pt-customize-base.php:608
+msgctxt "backend"
+msgid "Custom Code"
+msgstr "Individueller Code"
+
+#: inc/customizer/class-pt-customize-base.php:614
+msgctxt "backend"
+msgid "Other"
+msgstr "Andere"
+
+#: inc/customizer/class-pt-customize-base.php:629
+msgctxt "backend"
+msgid "Logo Image"
+msgstr "Logo Bild"
+
+#: inc/customizer/class-pt-customize-base.php:630
+msgctxt "backend"
+msgid "Recommended height for the Logo is 90px."
+msgstr "Die empfohlene Höhe für das Logo ist 90px."
+
+#: inc/customizer/class-pt-customize-base.php:639
+msgctxt "backend"
+msgid "Retina Logo Image"
+msgstr "Retina Logo Bild"
+
+#: inc/customizer/class-pt-customize-base.php:640
+msgctxt "backend"
+msgid "2x logo size, for screens with high DPI."
+msgstr "2x der Logogröße, für Bildschirme mit hoher DPI."
+
+#: inc/customizer/class-pt-customize-base.php:649
+msgctxt "backend"
+msgid "Top bar visibility"
+msgstr "Top Bar Sichtbarkeit"
+
+#: inc/customizer/class-pt-customize-base.php:650
+msgctxt "backend"
+msgid "Show or hide?"
+msgstr "Zeigen oder verbergen?"
+
+#: inc/customizer/class-pt-customize-base.php:653
+msgctxt "backend"
+msgid "Show"
+msgstr "Zeigen"
+
+#: inc/customizer/class-pt-customize-base.php:654
+msgctxt "backend"
+msgid "Hide"
+msgstr "Verbergen"
+
+#: inc/customizer/class-pt-customize-base.php:662
+msgctxt "backend"
+msgid "Top bar background color"
+msgstr "Top Bar Hintergrundfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:672
+msgctxt "backend"
+msgid "Top bar text color"
+msgstr "Top Bar Textfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:682
+msgctxt "backend"
+msgid "Header background color"
+msgstr "Header Hintergrundfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:691
+msgctxt "backend"
+msgid "Header text color"
+msgstr "Header Textfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:710
+msgctxt "backend"
+msgid "Header navigation link color"
+msgstr "Header Navigationslink Farbe"
+
+#: inc/customizer/class-pt-customize-base.php:719
+msgctxt "backend"
+msgid "Header navigation submenu background"
+msgstr "Header Navigation Submenü Hintergrund"
+
+#: inc/customizer/class-pt-customize-base.php:728
+msgctxt "backend"
+msgid "Header navigation submenu link color"
+msgstr "Header Navigation Submenü Linkfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:737
+msgctxt "backend"
+msgid "Header navigation submenu mobile link color"
+msgstr "Header Navigation Submenü Mobil Linkfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:746
+msgctxt "backend"
+msgid "Featured page"
+msgstr "Angezeigte Seite"
+
+#: inc/customizer/class-pt-customize-base.php:747
+msgctxt "backend"
+msgid ""
+"To which page should the Featured Page button link to? Under the main "
+"navigation."
+msgstr ""
+"Zu welcher Seite soll der „Gezeigte Seite“ Button verlinken? Unter dem "
+"Hauptmenü"
+
+#: inc/customizer/class-pt-customize-base.php:754
+msgctxt "backend"
+msgid "Custom Button Text"
+msgstr "Benutzerdefinierter Buttontext"
+
+#: inc/customizer/class-pt-customize-base.php:761
+#: inc/customizer/class-pt-customize-base.php:1145
+msgctxt "backend"
+msgid "Custom URL"
+msgstr "Benutzerdefinierte URL"
+
+#: inc/customizer/class-pt-customize-base.php:769
+msgctxt "backend"
+msgid "Open link in a new window/tab."
+msgstr "Link in neuem Fenster/Tab öffnen."
+
+#: inc/customizer/class-pt-customize-base.php:779
+msgctxt "backend"
+msgid "Main navigation background color"
+msgstr "Hauptmenü Hintergrundfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:788
+msgctxt "backend"
+msgid "Main navigation link color"
+msgstr "Hauptmenü Linkfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:797
+msgctxt "backend"
+msgid "Main navigation link hover color"
+msgstr "Hauptmenü Linkfarbe Hover"
+
+#: inc/customizer/class-pt-customize-base.php:806
+msgctxt "backend"
+msgid "Main navigation active background"
+msgstr "Hauptmenü Hintergrundfarbe aktiver Menüpunkt"
+
+#: inc/customizer/class-pt-customize-base.php:815
+msgctxt "backend"
+msgid "Main navigation submenu background"
+msgstr "Hauptmenü Submenü Hintergrundfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:824
+msgctxt "backend"
+msgid "Main navigation submenu link color"
+msgstr "Hauptmenü Submenü Linkfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:833
+msgctxt "backend"
+msgid "Main navigation submenu link color (mobile)"
+msgstr "Hauptmenü Submenü Linkfarbe (Mobilgeräte)"
+
+#: inc/customizer/class-pt-customize-base.php:842
+msgctxt "backend"
+msgid "Main navigation submenu link hover color (mobile)"
+msgstr "Hauptmenü Submenü Linkfarbe (Mobilgeräte) Hover"
+
+#: inc/customizer/class-pt-customize-base.php:851
+msgctxt "backend"
+msgid "Character set for Google Fonts"
+msgstr "Zeichensatz für Google Fonts"
+
+#: inc/customizer/class-pt-customize-base.php:867
+msgctxt "backend"
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:876
+msgctxt "backend"
+msgid "Button color"
+msgstr "Buttonfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:885
+msgctxt "backend"
+msgid "Informative color"
+msgstr "Informationsfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:894
+msgctxt "backend"
+msgid "Link color"
+msgstr "Linkfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:903
+msgctxt "backend"
+msgid "Attention color"
+msgstr "Achtung-Farbe"
+
+#: inc/customizer/class-pt-customize-base.php:912
+msgctxt "backend"
+msgid "Display latest posts"
+msgstr "Zeige letzte Beiträge an"
+
+#: inc/customizer/class-pt-customize-base.php:913
+msgctxt "backend"
+msgid "Display latest posts under the main content container"
+msgstr "Zeige die letzten Beiträge unter dem Hauptinhalt-Container"
+
+#: inc/customizer/class-pt-customize-base.php:925
+msgctxt "backend"
+msgid "Number of products per page"
+msgstr "Anzahl von Produkten per Seite"
+
+#: inc/customizer/class-pt-customize-base.php:930
+msgctxt "backend"
+msgid "Sidebar on single product page"
+msgstr "Sidebar auf der Produktdetailseite"
+
+#: inc/customizer/class-pt-customize-base.php:934
+msgctxt "backend"
+msgid "No sidebar"
+msgstr "Keine Sidebar"
+
+#: inc/customizer/class-pt-customize-base.php:935
+msgctxt "backend"
+msgid "Left"
+msgstr "Links"
+
+#: inc/customizer/class-pt-customize-base.php:936
+msgctxt "backend"
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/customizer/class-pt-customize-base.php:948
+msgctxt "backend"
+msgid "Footer widgets layout"
+msgstr "Footer Widgets Layout"
+
+#: inc/customizer/class-pt-customize-base.php:949
+msgctxt "backend"
+msgid ""
+"Select number of widget you want in the footer and then with the slider "
+"rearrange the layout"
+msgstr ""
+"Wählen Sie die Anzahl an Widgets im Footerbereich und nutzen Sie den Slider, "
+"um das Layout zu verändern"
+
+#: inc/customizer/class-pt-customize-base.php:964
+msgctxt "backend"
+msgid "Footer background color"
+msgstr "Footer Hintergrundfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:973
+msgctxt "backend"
+msgid "Footer widget title color"
+msgstr "Footer Widget-Titel Farbe"
+
+#: inc/customizer/class-pt-customize-base.php:983
+msgctxt "backend"
+msgid "Footer text color"
+msgstr "Footer Textfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:993
+msgctxt "backend"
+msgid "Footer link color"
+msgstr "Footer Linkfarbe"
+
+#: inc/customizer/class-pt-customize-base.php:1001
+msgctxt "backend"
+msgid "Footer text on left"
+msgstr "Footer Text auf der linken Seite"
+
+#: inc/customizer/class-pt-customize-base.php:1002
+msgctxt "backend"
+msgid "Before footer menu. You can use HTML."
+msgstr "Vor dem Footermenü. Sie können HTML verwenden."
+
+#: inc/customizer/class-pt-customize-base.php:1009
+msgctxt "backend"
+msgid "Footer text on right"
+msgstr "Footer Text auf der rechten Seite"
+
+#: inc/customizer/class-pt-customize-base.php:1010
+msgctxt "backend"
+msgid "You can use HTML."
+msgstr "Sie können HTML verwenden."
+
+#: inc/customizer/class-pt-customize-base.php:1027
+msgctxt "backend"
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: inc/customizer/class-pt-customize-base.php:1028
+msgctxt "backend"
+msgid "%s How to find CSS classes %s in the theme."
+msgstr "%s Wie Sie CSS Klassen %s im Theme finden."
+
+#: inc/customizer/class-pt-customize-base.php:1035
+msgctxt "backend"
+msgid "Custom JavaScript (head)"
+msgstr "Benutzerdefiniertes JavaScript (Head-Bereich)"
+
+#: inc/customizer/class-pt-customize-base.php:1036
+#: inc/customizer/class-pt-customize-base.php:1043
+msgctxt "backend"
+msgid "You have to include the &lt;script&gt;&lt;/script&gt; tags as well."
+msgstr "Sie müssen auch die &lt;script&gt;&lt;/script&gt; Tags einfügen."
+
+#: inc/customizer/class-pt-customize-base.php:1042
+msgctxt "backend"
+msgid "Custom JavaScript (footer)"
+msgstr "Benutzerdefiniertes JavaScript (Footer)"
+
+#: inc/customizer/class-pt-customize-base.php:1055
+msgctxt "backend"
+msgid "Favicon Image"
+msgstr "Favicon Bild"
+
+#: inc/customizer/class-pt-customize-base.php:1056
+msgctxt "backend"
+msgid "Recommended dimensions are 32 x 32px."
+msgstr "Die empfohlene Größe ist 32x32px."
+
+#: inc/customizer/class-pt-customize-base.php:1065
+msgctxt "backend"
+msgid "Show ACF admin panel?"
+msgstr "ACF Admin Panel zeigen?"
+
+#: inc/customizer/class-pt-customize-base.php:1066
+msgctxt "backend"
+msgid ""
+"If you want to use ACF and need the ACF admin panel set this to <strong>Yes</"
+"strong>. Do not change if you do not know what you are doing."
+msgstr ""
+"Wenn Sie ACF benutzen möchten und das ACF Admin Panel brauchen, so setzen "
+"Sie dies auf <strong>Ja</strong>. Ändern Sie diese Einstellung nicht, wenn "
+"Sie nicht wissen, was Sie tun."
+
+#: inc/customizer/class-pt-customize-base.php:1069
+msgctxt "backend"
+msgid "No"
+msgstr "Nein"
+
+#: inc/customizer/class-pt-customize-base.php:1070
+msgctxt "backend"
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/customizer/class-pt-customize-base.php:1144
+msgctxt "backend"
+msgid "None"
+msgstr "Keine"
+
+#: inc/documentation-link.php:9 inc/documentation-link.php:10
+#: inc/documentation-link.php:21
+msgctxt "backend"
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/documentation-link.php:24
+msgctxt "backend"
+msgid "Click here to see online documentation of the theme!"
+msgstr "Klicken Sie hier, um die Online-Dokumentation des Themes zu lesen!"
+
+#: inc/theme-sidebars.php:12
+msgctxt "backend"
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: inc/theme-sidebars.php:14
+msgctxt "backend"
+msgid "Sidebar on the blog layout."
+msgstr "Sidebar im Blog Layout"
+
+#: inc/theme-sidebars.php:26
+msgctxt "backend"
+msgid "Regular Page Sidebar"
+msgstr "Sidebar der normalen Seiten"
+
+#: inc/theme-sidebars.php:28
+msgctxt "backend"
+msgid "Sidebar on the regular page."
+msgstr "Sidebar der normalen Seite."
+
+#: inc/theme-sidebars.php:41
+msgctxt "backend"
+msgid "Shop Sidebar"
+msgstr "Shop Sidebar"
+
+#: inc/theme-sidebars.php:43
+msgctxt "backend"
+msgid "Sidebar for the shop page"
+msgstr "Sidebar für die Shopseite"
+
+#: inc/theme-sidebars.php:58
+msgctxt "backend"
+msgid "Header area for Icon Box and Social Icons widgets."
+msgstr "Headerbereich für die Icon Box und Social Icons Widgets."
+
+#: inc/theme-sidebars.php:73
+msgctxt "backend"
+msgid ""
+"Footer area works best with %d widgets. This number can be changed in the "
+"Appearance &rarr; Customize &rarr; Theme Options &rarr; Footer."
+msgstr ""
+"Footerbereich funktioniert am besten mit %d Widgets. Diese Anzahl kann im "
+"Bereich Ansicht &rarr; Anpassen &rarr; Theme Optionen &rarr; Footer geändert "
+"werden."
+
+#: inc/custom-comments.php:28
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: inc/filters.php:75
+msgctxt "custom read more text after the post excerpts"
+msgid " &hellip;"
+msgstr "&hellip;"
+
+#. translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/filters.php:207
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: inc/helpers.php:121
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#~ msgctxt "backend"
+#~ msgid "Automatic Updates"
+#~ msgstr "Automatische Updates"
+
+#~ msgctxt "backend"
+#~ msgid ""
+#~ "If you fill out the two fields below, you will get notified when the "
+#~ "theme update is available and you will be able to update with just one "
+#~ "click. Please note that all the changes you will make in the code "
+#~ "directly will be overwritten with the updates. Use the <a href=\"http://"
+#~ "codex.wordpress.org/Child_Themes\" target=\"_blank\">Child Themes</a> to "
+#~ "alter the code."
+#~ msgstr ""
+#~ "Wenn Sie die zwei Feldern unten ausfüllen, werden Sie benachrichtigt wenn "
+#~ "ein Update für das Theme verfügbar ist und können das Update dann mit nur "
+#~ "einem Klick durchführen. Bitte beachten Sie, dass alle Änderungen am Code "
+#~ "durch das Update überschrieben werden. Benutzen Sie <a href=\"http://"
+#~ "codex.wordpress.org/Child_Themes\" target=\"_blank\">Child Themes</a>, um "
+#~ "den Code zu verändern."
+
+#~ msgctxt "backend"
+#~ msgid "Your ThemeForest username"
+#~ msgstr "Ihr ThemeForest Benutzername"
+
+#~ msgctxt "backend"
+#~ msgid "Your Envato marketplace (ThemeForest) username."
+#~ msgstr "Ihr Envato Marketplace (ThemeForest) Benutzername."
+
+#~ msgctxt "backend"
+#~ msgid "Your ThemeForest API key"
+#~ msgstr "Ihr ThemeForest API Schlüssel"
+
+#~ msgctxt "backend"
+#~ msgid ""
+#~ "Your API key (<strong>not</strong> password). See <a href=\"https://www."
+#~ "diigo.com/item/p/pdbsqoszbspabboqezbcoserod\" target=\"_blank\">here</a> "
+#~ "where you can generate your new API key on ThemeForest site."
+#~ msgstr ""
+#~ "Ihr API Schlüssel (<strong>nicht</strong> Ihr Passwort). Schauen Sie <a "
+#~ "href=\"https://www.diigo.com/item/p/pdbsqoszbspabboqezbcoserod\" target="
+#~ "\"_blank\">hier</a>, wo Sie Ihren neuen API Schlüssel auf ThemeForest "
+#~ "generieren können."

@@ -1,0 +1,50 @@
+version: '3'
+
+services:
+
+  db:
+    container_name: $DB_CONTAINER
+    image: mysql:5.7
+    command:
+      - "--character-set-server=utf8"
+      - "--collation-server=utf8_unicode_ci"
+    restart: on-failure:10
+    volumes:
+      - ./www/${VIRTUAL_HOST}/db_data:/var/lib/mysql
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_DATABASE: $DB_NAME
+      MYSQL_USER: $DB_USER
+      MYSQL_PASSWORD: $DB_PASSWORD
+    ports:
+      - "3310:3306"
+
+  wp:
+    container_name: $WP_CONTAINER
+    image: wordpress:latest
+    build: .
+    depends_on:
+      - db
+    restart: on-failure:10
+    volumes:
+      - ./theme:/var/www/html/wp-content/themes/${WP_CUSTOM_THEME}:rw
+      #- ./plugins/google-reviews-business:/var/www/html/wp-content/plugins/google-reviews-business:rw
+      - ./uploads:/var/www/html/wp-content/uploads:rw
+      - ./www/${VIRTUAL_HOST}/wp_content:/var/www/html/wp-content:rw
+      - ./xcustom.ini:/usr/local/etc/php/conf.d/xcustom.ini:rw
+    environment:
+      WORDPRESS_DB_HOST: $DB_CONTAINER
+      WORDPRESS_DB_NAME: $DB_NAME
+      WORDPRESS_DB_USER: $DB_USER
+      WORDPRESS_DB_PASSWORD: $DB_PASSWORD
+      WORDPRESS_TABLE_PREFIX: $WP_TABLE_PREFIX
+      VIRTUAL_HOST: $VIRTUAL_HOST
+      VIRTUAL_PORT: $VIRTUAL_PORT
+      LETSENCRYPT_HOST: $VIRTUAL_HOST
+      LETSENCRYPT_EMAIL: $LETSENCRYPT_EMAIL
+      LETSENCRYPT_TEST: $LETSENCRYPT_TEST
+
+networks:
+  default:
+    external:
+      name: nginx_proxy
