@@ -10,7 +10,7 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "grunt-cli": "~1.2.0",
-    "grunt": "~1.0.2",
+    "grunt": "~1.5.2",
     "grunt-contrib-sass": "~1.0.0",
     "grunt-contrib-concat": "~1.0.1",
     "grunt-contrib-cssmin": "~2.2.1",
